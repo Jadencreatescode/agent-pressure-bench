@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="A reproducible map of Agent Pressure Bench reasoning and coding fixtures, alongside clearly separated historical evaluation evidence.">
+  <meta name="theme-color" content="#10130f">
+  <meta property="og:title" content="Thinking, Reasoning &amp; Problem-Solving — Agent Pressure Bench">
+  <meta property="og:description" content="Public fixtures you can run. Historical results labeled for what they are.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://jadencreatescode.github.io/agent-pressure-bench/thinking-reasoning/">
+  <title>Thinking, Reasoning &amp; Problem-Solving — Agent Pressure Bench</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="../" aria-label="Agent Pressure Bench home"><span class="brand-mark" aria-hidden="true">APB</span><span>Agent Pressure Bench</span></a>
+    <nav aria-label="Primary navigation">
+      <a href="#public-suite">Public suite</a>
+      <a href="#historical-results">Historical evidence</a>
+      <a href="#provenance">Provenance</a>
+      <a class="nav-cta" href="https://github.com/Jadencreatescode/agent-pressure-bench">GitHub <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="page-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="signal" aria-hidden="true"></span> Public fixtures + retained evidence</p>
+        <h1 id="page-title">Thinking, Reasoning <span>&amp; Problem-Solving</span></h1>
+        <p class="lede">A transparent view of what agentic models can solve under pressure—from exact logic and executable code to long-context retrieval and failure recovery.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#public-suite">Explore the public suite</a>
+          <a class="button secondary" href="https://github.com/Jadencreatescode/agent-pressure-bench#install">Run it yourself <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+      <div class="hero-figure" aria-label="Public benchmark coverage summary">
+        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+        <div class="core"><span>APB</span><strong>OPEN</strong></div>
+        <div class="metric m-one"><strong>17</strong><span>reasoning tasks</span></div>
+        <div class="metric m-two"><strong>24</strong><span>coding cells</span></div>
+        <div class="metric m-three"><strong>8</strong><span>code families</span></div>
+        <div class="metric m-four"><strong>0</strong><span>hidden claims</span></div>
+      </div>
+    </section>
+
+    <section class="truth-strip" aria-label="Reporting distinction">
+      <div><span class="label public">PUBLIC APB</span><p>Runnable, inspectable fixtures. A “public-suite score” means an actual run on these released fixtures.</p></div>
+      <div class="divider" aria-hidden="true"></div>
+      <div><span class="label historical">HISTORICAL EVIDENCE</span><p>Verified retained measurements from earlier harnesses. Published as evidence—not relabeled as APB reruns.</p></div>
+    </section>
+
+    <section id="public-suite" class="section">
+      <div class="section-heading">
+        <div><p class="kicker">01 / REPRODUCIBLE NOW</p><h2>The public pressure surface</h2></div>
+        <p>Every fixture is synthetic, versioned, inspectable, and runnable through the repository. Fixture mode tests the harness deterministically; it is not a model score.</p>
+      </div>
+
+      <div class="suite-layout">
+        <article class="feature-panel reasoning-panel">
+          <div class="panel-top"><span class="index">R</span><span class="availability">17 public tasks</span></div>
+          <h3>Progressive reasoning</h3>
+          <p>Seventeen deductive tasks with strict answer and evidence envelopes. The sequence moves from direct deductions toward interlocking constraints and exact, externally verifiable conclusions.</p>
+          <div class="progression" aria-label="Reasoning task progression">
+            <span>R01</span><i></i><span>R05</span><i></i><span>R09</span><i></i><span>R13</span><i></i><span>R17</span>
+          </div>
+          <ul class="tag-list" aria-label="Historical reasoning category lineage">
+            <li>Einstein: standard → extended → harder → hardest</li><li>Chains</li><li>Temporal</li><li>Counterfactual</li><li>Logic negation</li><li>Constraints</li>
+          </ul>
+          <a class="text-link" href="https://github.com/Jadencreatescode/agent-pressure-bench/blob/main/suites/progressive-reasoning.json">Inspect suite definition <span aria-hidden="true">↗</span></a>
+        </article>
+
+        <article class="feature-panel code-panel">
+          <div class="panel-top"><span class="index">C</span><span class="availability">24 executable cells</span></div>
+          <h3>Coding bakeoff</h3>
+          <p>Eight algorithm and systems families, each expressed in three substantively different source-repair variants and checked by verifier-owned contract subprocesses.</p>
+          <ol class="code-families">
+            <li><b>01</b> Path normalization</li><li><b>02</b> Atomic JSONL recovery</li><li><b>03</b> Bounded retry</li><li><b>04</b> Unicode counting</li><li><b>05</b> Topological sort</li><li><b>06</b> Schema migration</li><li><b>07</b> CSV conversion</li><li><b>08</b> Feature-flag precedence</li>
+          </ol>
+          <p class="fine-print">The earlier historical coding bakeoff separately tested binary search, interval merge, knapsack, topological sort, rate limiting, LRU cache, asynchronous retry, and JSON Patch.</p>
+          <a class="text-link" href="https://github.com/Jadencreatescode/agent-pressure-bench/blob/main/suites/executable-coding.json">Inspect executable cells <span aria-hidden="true">↗</span></a>
+        </article>
+      </div>
+
+      <div class="support-grid">
+        <article><span class="mono">LONG CONTEXT</span><strong>3 budgets</strong><p>Deterministic large-corpus retrieval at declared 60K, 80K, and 100K context budgets.</p></article>
+        <article><span class="mono">FAILURE EDGE</span><strong>18 fixtures</strong><p>Six failure families, each with three variants, exercise behavior where ordinary success-path tests stop.</p></article>
+        <article><span class="mono">SAFETY</span><strong>1 fixture</strong><p>Confinement behavior evaluated through an externally verified synthetic task.</p></article>
+        <article><span class="mono">STRUCTURED</span><strong>1 fixture</strong><p>Exact structured-JSON output with machine-verifiable format and content.</p></article>
+      </div>
+
+      <aside class="stress-map">
+        <div><p class="kicker">SOLVER-VERIFIED LINEAGE</p><h3>Stress categories that shaped the evaluation program</h3></div>
+        <ul><li>CRT</li><li>Integer optimization</li><li>Knapsack</li><li>TSP</li><li>Assignment</li><li>Set cover</li><li>Shortest path</li><li>Recurrences</li><li>Exact Bayes</li><li>Interval scheduling</li><li>Subset counts</li><li>Constraint enumeration</li></ul>
+        <p class="fine-print">These are broad historical stress categories, not a claim that each is a distinct task in the current 17-task public reasoning suite.</p>
+      </aside>
+    </section>
+
+    <section id="historical-results" class="section results-section">
+      <div class="section-heading">
+        <div><p class="kicker">02 / RETAINED EVIDENCE</p><h2>Historical verified results</h2></div>
+        <p>These measurements were verified from retained evidence under their original conditions. They are not newly executed public APB runs and should not be compared as a single controlled leaderboard.</p>
+      </div>
+
+      <div class="notice" role="note"><strong>No rerun is required to publish historical evidence.</strong><span>Its status, source, conditions, and limitations must remain explicit. The label <em>public-suite score</em> is reserved for an actual run against the released APB fixtures.</span></div>
+
+      <div class="table-wrap" tabindex="0" role="region" aria-label="Historical verified results table">
+        <table>
+          <caption>Verified historical measurements; throughput uses generated tokens per second (tok/s).</caption>
+          <thead><tr><th scope="col">Model / system</th><th scope="col">Verified outcome</th><th scope="col">Throughput (metric type)</th><th scope="col">Evidence status</th></tr></thead>
+          <tbody>
+            <tr><th scope="row"><strong>Agent Max v1 · Qwen3.8</strong><span>Regular model suite</span></th><td><b>60 / 64</b><span class="breakdown">Reasoning 7/8 · hard 9/10 · gauntlet 12/12 · breakpoint 9/10 · trap 7/8 · code 8/8 · code-hard 8/8</span></td><td><b>37.8 tok/s</b><span>generated-token throughput · sustained 512-token MTP</span><b>26.1 tok/s</b><span>generated-token throughput · real Hermes long response</span></td><td><span class="status">Historical · verified</span></td></tr>
+            <tr><th scope="row"><strong>Bridge AREX policy</strong><span>Reasoning + failure edge</span></th><td><b>17 / 17</b><span class="breakdown">Policy evaluation</span><b>18 / 18</b><span class="breakdown">Failure-edge evaluation</span></td><td><b>~21.3 tok/s</b><span>generated-token throughput</span></td><td><span class="status">Historical · verified</span><span class="caveat">Explicitly not DFlash parity</span></td></tr>
+            <tr><th scope="row"><strong>Ornith 1.5 35B-A3B</strong><span>MLX · 6-bit</span></th><td><b>17 / 17</b></td><td><b>92.9 TPS</b><span>generated-token throughput</span></td><td><span class="status">Historical · verified</span></td></tr>
+            <tr><th scope="row"><strong>Qwen3.8 27B</strong><span>MLX · 6-bit</span></th><td><b>17 / 17</b></td><td><b>32.9 TPS</b><span>generated-token throughput</span></td><td><span class="status">Historical · verified</span></td></tr>
+            <tr><th scope="row"><strong>Qwen3 Coder 30B-A3B</strong><span>6-bit</span></th><td><b>16 / 17</b></td><td><b>92.1 TPS</b><span>generated-token throughput</span></td><td><span class="status">Historical · verified</span></td></tr>
+            <tr><th scope="row"><strong>Qwen3.6 35B-A3B</strong></th><td><b>14 / 15</b><span class="breakdown">One budget-limited unresolved</span></td><td><b>114.4 TPS avg</b><span>average generated-token throughput</span></td><td><span class="status">Historical · verified</span></td></tr>
+            <tr><th scope="row"><strong>huihui Qwen3.6 abliterated MTP</strong></th><td><b>13 / 15</b><span class="breakdown">Two budget/harness-related issues</span></td><td><b>55–87 TPS</b><span>generated-token throughput range</span></td><td><span class="status">Historical · verified</span></td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="table-note"><strong>Metric note.</strong> TPS and tok/s above mean generated tokens per second, not tool calls per second. Different models, quantizations, harnesses, workloads, and hardware conditions prevent a controlled speed ranking.</p>
+    </section>
+
+    <section id="provenance" class="section provenance-section">
+      <div class="section-heading"><div><p class="kicker">03 / READ THE LABEL</p><h2>Provenance before performance</h2></div></div>
+      <div class="principles">
+        <article><span>01</span><h3>Public is reproducible</h3><p>The repository publishes synthetic suite definitions, fixtures, schemas, harness code, checks, and aggregate reference metadata. You can inspect the test and run it.</p></article>
+        <article><span>02</span><h3>Historical is contextual</h3><p>Retained evidence can be published without rerunning, but it remains attached to its original harness and conditions. It does not become an APB public-suite score by proximity.</p></article>
+        <article><span>03</span><h3>Scores are not universal rankings</h3><p>Sampling, budgets, quantization, hardware, adapters, scoring treatment, timeouts, and exclusions matter. Results describe measurements under stated conditions.</p></article>
+      </div>
+      <div class="caveat-box">
+        <h3>What this page does not claim</h3>
+        <ul><li>No reproduction of, exact parity with, or endorsement by Agent Max 2 or DFlash.</li><li>No invented per-model breakdowns beyond the supplied verified facts.</li><li>No equivalence between deterministic fixture-mode smoke tests and generative model scores.</li><li>No controlled throughput comparison across unlike systems or workloads.</li></ul>
+        <div class="doc-links"><a href="../REPORTING_POLICY.md">Reporting policy</a><a href="../METHODOLOGY.md">Methodology</a><a href="../PROVENANCE.json">Provenance manifest</a><a href="../NOTICE">Notice</a></div>
+      </div>
+    </section>
+
+    <section class="closing">
+      <p class="kicker">MAKE THE CLAIM TESTABLE</p>
+      <h2>Inspect the fixtures. Run the harness. Publish the conditions.</h2>
+      <div class="hero-actions">
+        <a class="button primary" href="https://github.com/Jadencreatescode/agent-pressure-bench">View the repository <span aria-hidden="true">↗</span></a>
+        <button class="button secondary" id="share-button" type="button" data-share-url="https://jadencreatescode.github.io/agent-pressure-bench/thinking-reasoning/">Copy page link</button>
+      </div>
+      <p id="share-status" class="share-status" aria-live="polite"></p>
+    </section>
+  </main>
+
+  <footer><span>Agent Pressure Bench · Apache-2.0</span><span>Static, tracker-free, and built from repository evidence.</span></footer>
+</body>
+</html>

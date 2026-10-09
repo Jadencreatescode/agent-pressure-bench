@@ -42,7 +42,7 @@ jobs:
       - name: Prepare static site
         run: |
           mkdir _site
-          cp docs/index.html _site/index.html
+          cp -a docs/. _site/
           cp README.md METHODOLOGY.md SECURITY.md REPORTING_POLICY.md HIDDEN_SUITE_ARCHITECTURE.md RELEASE_CHECKLIST.md PROVENANCE.json CITATION.cff LICENSE NOTICE _site/
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3

@@ -27,13 +27,15 @@ jobs:
         with:
           python-version: "3.11"
           cache: pip
+      - name: Install uv
+        uses: astral-sh/setup-uv@e92bafb6253dcd438e0484186d7669ea7a8ca1cc # v6.4.3
       - name: Install
-        run: python -m pip install --disable-pip-version-check . 'pytest>=8,<9'
+        run: uv sync --locked --extra dev --python 3.11
       - name: Test
         env:
           PYTHONDONTWRITEBYTECODE: "1"
-        run: python -m pytest -q
+        run: uv run --locked --extra dev python -m pytest -q
       - name: Validate release metadata
-        run: python scripts/validate_release_materials.py
+        run: uv run --locked python scripts/validate_release_materials.py
       - name: Build SBOM
-        run: python scripts/generate_sbom.py --output artifacts/sbom.cdx.json
+        run: uv run --locked python scripts/generate_sbom.py --output artifacts/sbom.cdx.json
