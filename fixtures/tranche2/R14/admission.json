@@ -1,0 +1,18 @@
+{
+  "deterministic": true,
+  "enumerated_checks": 3,
+  "expected_checks": 3,
+  "fixture_id": "R14",
+  "fixture_manifest_sha256": "f0763e4e63813d2d8279192b5acd3c349a99fd830e2188736a742a5f6cbd480b",
+  "immutable_hashes_match": true,
+  "known_good_sha256": "d83e9652ac9f426170504495c695875c28c5126f57b68f5cbdaec7a76ba783fb",
+  "negative_controls_passed": true,
+  "network": "disabled",
+  "passed_checks": 3,
+  "reference_runs": 2,
+  "schema_version": "1.0",
+  "semantic_receipt_sha256": "c3e4dc31830ccf35bf1c8f5b3dc65743e702f985f23f86b1a67ea4700c883ea2",
+  "status": "admitted",
+  "timezone": "UTC",
+  "verifier_sha256": "b0505a21429746655012ccee354369cdc443d66dbab098dff4a8d2416ba5a44d"
+}

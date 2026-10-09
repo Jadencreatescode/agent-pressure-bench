@@ -1,0 +1,31 @@
+{
+  "allowed_mutation_paths": [
+    "work/**"
+  ],
+  "expected_checks": 3,
+  "fixture_id": "S03",
+  "immutable_hashes": {
+    "known_good/solve.py": "d83e9652ac9f426170504495c695875c28c5126f57b68f5cbdaec7a76ba783fb",
+    "mutants/includes_distractor.py": "c367b8f6fd37ee2f31cdf7a7c1903c26df4a2233b87675bbfca48fbeacab7496",
+    "prompt.md": "7b99554c32af5cf5337b0afd76af930366bbaae1302acfaaa3fff5f93144e17f",
+    "public/corpus.txt": "4823281764a9d463fbfc75f8d8409946d3525c992ce9077df3f105e63d8467e8",
+    "public/generation_manifest.json": "2e96fc99cebbc20941cf75dc1f654ab352a914f367e0ee339ac58c22b0040940",
+    "verifier/oracle.json": "ed1743b28d13103795cbf0354813dc8fab06acab2f571c412363791245419ec5",
+    "verifier/verify.py": "b0505a21429746655012ccee354369cdc443d66dbab098dff4a8d2416ba5a44d"
+  },
+  "kind": "long_context",
+  "limits": {
+    "network": false,
+    "seed": 202603,
+    "timezone": "UTC"
+  },
+  "oracle_proof": {
+    "method": "generator_manifest_and_independent_exact_scanner",
+    "unique": true
+  },
+  "schema_version": "1.0",
+  "snapshot_hashes": {
+    "public/corpus.txt": "4823281764a9d463fbfc75f8d8409946d3525c992ce9077df3f105e63d8467e8",
+    "public/generation_manifest.json": "2e96fc99cebbc20941cf75dc1f654ab352a914f367e0ee339ac58c22b0040940"
+  }
+}

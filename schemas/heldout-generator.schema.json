@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/agent-pressure-bench/schemas/heldout-generator.schema.json",
+  "title": "Agent Pressure Bench held-out generator metadata",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "id", "track", "algorithm", "note", "public_seed", "sample_count"],
+  "properties": {
+    "schema_version": {"const": "1.0"},
+    "id": {"const": "heldout-generator"},
+    "track": {"const": "heldout_generator"},
+    "algorithm": {"type": "string", "minLength": 1},
+    "note": {"type": "string", "minLength": 1},
+    "public_seed": {"type": "string", "minLength": 1},
+    "sample_count": {"type": "integer", "minimum": 1}
+  }
+}

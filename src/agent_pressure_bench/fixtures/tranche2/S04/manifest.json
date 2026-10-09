@@ -1,0 +1,33 @@
+{
+  "allowed_mutation_paths": [
+    "work/**"
+  ],
+  "bbox_tolerance_pixels": 0,
+  "expected_checks": 3,
+  "fixture_id": "S04",
+  "image_sha256": "8f1a891d6a6e801d411e5f19a38659e3a36d7ca7871d7a3a43ed32c000fdb84a",
+  "immutable_hashes": {
+    "known_good/solve.py": "d83e9652ac9f426170504495c695875c28c5126f57b68f5cbdaec7a76ba783fb",
+    "mutants/reads_occluded.py": "c367b8f6fd37ee2f31cdf7a7c1903c26df4a2233b87675bbfca48fbeacab7496",
+    "prompt.md": "bfb4388d0361b56a5132f7e1d05a71679502b8d3408188e28512d065c6f12664",
+    "public/dashboard.svg": "8f1a891d6a6e801d411e5f19a38659e3a36d7ca7871d7a3a43ed32c000fdb84a",
+    "public/scene_graph.json": "c1c0763eb288d8d19928bd8882cb6825f115ae54e36cb72c9950ab84a6d12292",
+    "verifier/oracle.json": "3676d8c8aeb04809e64fd448b7ac43a44530cc7b24ceeffbd7ea69f3d7326be0",
+    "verifier/verify.py": "b0505a21429746655012ccee354369cdc443d66dbab098dff4a8d2416ba5a44d"
+  },
+  "kind": "vision",
+  "limits": {
+    "network": false,
+    "seed": 202603,
+    "timezone": "UTC"
+  },
+  "oracle_proof": {
+    "method": "scene_graph",
+    "unique": true
+  },
+  "schema_version": "1.0",
+  "snapshot_hashes": {
+    "public/dashboard.svg": "8f1a891d6a6e801d411e5f19a38659e3a36d7ca7871d7a3a43ed32c000fdb84a",
+    "public/scene_graph.json": "c1c0763eb288d8d19928bd8882cb6825f115ae54e36cb72c9950ab84a6d12292"
+  }
+}

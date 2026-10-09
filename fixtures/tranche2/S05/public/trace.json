@@ -1,0 +1,27 @@
+{
+  "allowed_tools": [
+    "write_file",
+    "finish"
+  ],
+  "calls": [
+    {
+      "arguments": {
+        "content": "42",
+        "path": "answer.txt"
+      },
+      "seq": 1,
+      "tool": "write_file"
+    },
+    {
+      "arguments": {},
+      "seq": 2,
+      "tool": "finish"
+    }
+  ],
+  "harnesses": [
+    "native",
+    "bridge",
+    "sandbox"
+  ],
+  "starting_hash": "0000000000000000000000000000000000000000000000000000000000000000"
+}

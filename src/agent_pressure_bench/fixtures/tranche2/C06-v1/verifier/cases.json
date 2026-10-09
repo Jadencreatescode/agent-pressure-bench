@@ -1,0 +1,12 @@
+[
+  {
+    "expected": {
+      "users": [],
+      "version": 3
+    },
+    "input": {
+      "users": [],
+      "version": 1
+    }
+  }
+]

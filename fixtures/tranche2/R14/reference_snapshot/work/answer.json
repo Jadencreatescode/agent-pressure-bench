@@ -1,0 +1,16 @@
+{
+  "answer": {
+    "excluded": {
+      "b": "premise a disabled",
+      "c": "b unreachable",
+      "d": "c unreachable"
+    },
+    "reachable": []
+  },
+  "evidence_ids": [
+    "disable-a",
+    "r1",
+    "r2",
+    "r3"
+  ]
+}

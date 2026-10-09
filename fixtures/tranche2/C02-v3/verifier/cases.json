@@ -1,0 +1,14 @@
+[
+  {
+    "expected": [
+      null,
+      {
+        "after": 1
+      }
+    ],
+    "input": [
+      "null",
+      "{\"after\":1}"
+    ]
+  }
+]

@@ -1,0 +1,38 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+.venv/
+venv/
+*.egg-info/
+build/
+dist/
+
+# Benchmark outputs and private evidence
+runs/
+artifacts/
+private/
+release-evidence/
+*.log
+*.sqlite
+*.sqlite3
+
+# Editors and OS
+.DS_Store
+.idea/
+.vscode/
+*~

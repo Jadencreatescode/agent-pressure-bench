@@ -1,0 +1,21 @@
+{
+  "description": "Externally verified S05 synthetic fixture.",
+  "id": "harness-contract",
+  "license": "Apache-2.0",
+  "schema_version": "1.0",
+  "tasks": [
+    {
+      "budget": 4,
+      "difficulty": 1,
+      "family": "trace_comparison",
+      "id": "s05",
+      "prompt": "Replay and normalize the fixed tool trace; report equivalent harness outcomes in work/answer.json.\n\nThe fixture inputs are materialized in your current workspace. Use read_file and write_file; do not access repository fixture paths.\n",
+      "verifier": {
+        "expected_checks": 3,
+        "fixture_id": "S05",
+        "type": "fixture"
+      }
+    }
+  ],
+  "track": "harness_comparison"
+}

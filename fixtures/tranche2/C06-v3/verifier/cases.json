@@ -1,0 +1,24 @@
+[
+  {
+    "expected": {
+      "users": [
+        {
+          "active": true,
+          "display_name": "Dee",
+          "id": 5,
+          "role": "ops"
+        }
+      ],
+      "version": 3
+    },
+    "input": {
+      "users": [
+        {
+          "id": 5,
+          "name": "Dee",
+          "role": "ops"
+        }
+      ]
+    }
+  }
+]

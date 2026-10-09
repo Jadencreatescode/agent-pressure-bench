@@ -1,0 +1,10 @@
+{
+  "facts": [
+    "A1: seed_blue"
+  ],
+  "query": "flower_open",
+  "rules": [
+    "R1: seed_blue -> stem_tall",
+    "R2: stem_tall -> flower_open"
+  ]
+}

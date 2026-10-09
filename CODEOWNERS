@@ -1,0 +1,8 @@
+# Replace with the owning GitHub team before enabling required review.
+* @OWNER/MAINTAINERS
+
+# Require explicit review for release and security controls.
+/.github/ @OWNER/MAINTAINERS
+/SECURITY.md @OWNER/MAINTAINERS
+/RELEASE_CHECKLIST.md @OWNER/MAINTAINERS
+/PROVENANCE.json @OWNER/MAINTAINERS

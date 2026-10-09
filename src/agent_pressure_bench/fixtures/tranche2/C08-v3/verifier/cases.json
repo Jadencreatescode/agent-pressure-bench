@@ -1,0 +1,10 @@
+[
+  {
+    "expected": false,
+    "input": {
+      "cli": false,
+      "config": true,
+      "env": true
+    }
+  }
+]

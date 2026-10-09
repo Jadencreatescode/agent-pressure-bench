@@ -1,0 +1,17 @@
+[
+  {
+    "id": "T1",
+    "opened": "2026-01-02 03:04Z",
+    "status": "ok"
+  },
+  {
+    "id": "T2",
+    "opened": "bad",
+    "status": "broken"
+  },
+  {
+    "id": "T3",
+    "opened": "2026-02-03T04:05:00Z",
+    "status": "ok"
+  }
+]

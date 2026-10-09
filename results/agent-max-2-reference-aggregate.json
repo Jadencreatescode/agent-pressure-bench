@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0",
+  "status": "sanitized_reference_aggregate",
+  "source_label": "Agent Max 2",
+  "scope_note": "Aggregate-only reference supplied for this release; no private prompts, outputs, traces, model weights, or per-case data are included.",
+  "bounded": {"passed": 24, "total": 24},
+  "long_horizon_frozen": {"passed": 9, "total": 9},
+  "held_out": {"passed": 9, "total": 9},
+  "clean_decode": {
+    "metric": "tokens_per_second",
+    "context_tokens": [128, 256, 512],
+    "values": [46.7, 40.4, 37.6]
+  },
+  "coding": {
+    "raw": {"passed": 8, "total": 24, "tokens_per_second": 70.97},
+    "policy": {"passed": 14, "total": 24, "tokens_per_second": 60.08},
+    "caveat": "Raw and policy rows use different declared scoring treatments and must not be merged."
+  },
+  "long_context": {
+    "request_tokens": [100082, 160082, 200082],
+    "100082": "cached",
+    "160082": "cached",
+    "200082": "results_recorded",
+    "caveats": "Cache state and request length materially affect throughput; these labels are retained as reported aggregate metadata, not independently reproduced claims."
+  },
+  "bridge_arex": {
+    "failure_edge": {"passed": 18, "total": 18},
+    "progressive_reasoning": {"passed": 17, "total": 17},
+    "exact_dflash_parity": false,
+    "caveat": "Synthetic Bridge AREX mechanics are independently authored and are NOT exact DFlash parity."
+  },
+  "comparability": "Measurements under stated conditions only; not a universal ranking and not a claim of Agent Max 2 reproduction, parity, or endorsement."
+}

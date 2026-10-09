@@ -1,0 +1,20 @@
+{
+  "answer": {
+    "order": [
+      "A",
+      "B",
+      "C"
+    ],
+    "reliable": {
+      "W1": true,
+      "W2": false,
+      "W3": true
+    }
+  },
+  "evidence_ids": [
+    "W1-A<B",
+    "W1-B<C",
+    "W2-C<A",
+    "W3-A<B"
+  ]
+}

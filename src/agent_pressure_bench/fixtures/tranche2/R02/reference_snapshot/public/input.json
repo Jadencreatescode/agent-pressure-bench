@@ -1,0 +1,9 @@
+{
+  "facts": [
+    "A1: kiln_hot"
+  ],
+  "query": "vent_open",
+  "rules": [
+    "R1: kiln_hot -> vent_open"
+  ]
+}

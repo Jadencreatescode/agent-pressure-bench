@@ -1,0 +1,21 @@
+{
+  "errors": [
+    {
+      "code": "INVALID_TIMESTAMP",
+      "id": "T2",
+      "kind": "error"
+    }
+  ],
+  "items": [
+    {
+      "id": "T1",
+      "kind": "ticket",
+      "opened": "2026-01-02T03:04:00Z"
+    },
+    {
+      "id": "T3",
+      "kind": "ticket",
+      "opened": "2026-02-03T04:05:00Z"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agent-pressure-bench"
+version = "1.0.0"
+description = "Model-neutral synthetic benchmark for tool-using agents under pressure"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "Apache-2.0"
+license-files = ["LICENSE", "NOTICE"]
+authors = [{name = "Agent Pressure Bench contributors"}]
+dependencies = []
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Programming Language :: Python :: 3.11",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<9", "jsonschema>=4.23,<5"]
+
+[project.scripts]
+apb = "agent_pressure_bench.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+agent_pressure_bench = [
+  "suites/*.json",
+  "fixtures/*/*/*",
+  "fixtures/*/*/*/*",
+  "fixtures/*/*/*/*/*",
+]
+
+[tool.pytest.ini_options]
+addopts = "-ra --strict-markers"
+testpaths = ["tests"]

@@ -1,0 +1,1 @@
+{"fixture":"H02","nodes":{"cut":"ok","pack":"invalid","paint":"ok","root":"ok"},"parents":{"cut":"root","pack":"paint","paint":"root"},"variant":2}

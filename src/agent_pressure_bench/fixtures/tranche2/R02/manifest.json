@@ -1,0 +1,37 @@
+{
+  "allowed_mutation_paths": [
+    "work/**"
+  ],
+  "answer_schema": {
+    "additionalProperties": false,
+    "required": [
+      "answer",
+      "evidence_ids"
+    ],
+    "type": "object"
+  },
+  "expected_checks": 3,
+  "fixture_id": "R02",
+  "immutable_hashes": {
+    "known_good/solve.py": "d83e9652ac9f426170504495c695875c28c5126f57b68f5cbdaec7a76ba783fb",
+    "mutants/wrong_answer.py": "c367b8f6fd37ee2f31cdf7a7c1903c26df4a2233b87675bbfca48fbeacab7496",
+    "prompt.md": "3f48a01a1cb8597f6d4a00838a90ebcf6238ef6929800970fb9e2ab30641498d",
+    "public/input.json": "ab0c923039f3af24d5bd4c844fe7e991de7c660145ef046e5c79228d9adece4f",
+    "verifier/oracle.json": "b4fe6e8d35c00bdb29c1214a19080fc858f82aef99d645af06e5af9eb85a63eb",
+    "verifier/verify.py": "b0505a21429746655012ccee354369cdc443d66dbab098dff4a8d2416ba5a44d"
+  },
+  "kind": "reasoning",
+  "limits": {
+    "network": false,
+    "seed": 202603,
+    "timezone": "UTC"
+  },
+  "oracle_proof": {
+    "method": "exhaustive_or_dual_algorithm",
+    "unique": true
+  },
+  "schema_version": "1.0",
+  "snapshot_hashes": {
+    "public/input.json": "ab0c923039f3af24d5bd4c844fe7e991de7c660145ef046e5c79228d9adece4f"
+  }
+}

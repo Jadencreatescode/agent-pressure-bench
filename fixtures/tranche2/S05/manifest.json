@@ -1,0 +1,27 @@
+{
+  "allowed_mutation_paths": [
+    "work/**"
+  ],
+  "expected_checks": 3,
+  "fixture_id": "S05",
+  "immutable_hashes": {
+    "known_good/solve.py": "d83e9652ac9f426170504495c695875c28c5126f57b68f5cbdaec7a76ba783fb",
+    "mutants/drops_call.py": "c367b8f6fd37ee2f31cdf7a7c1903c26df4a2233b87675bbfca48fbeacab7496",
+    "prompt.md": "c07e4aeb3eab4af607de0fba86733e252f800f28e8b73fb88977538323370d7d",
+    "public/trace.json": "7262d183da14854bff3d557ae76dbd711d2526438f9bf91269c8d6a73b8edb5b",
+    "verifier/oracle.json": "3ddaed09d027df4f14b7882f7d992b76e5cc25b9f753e8a4db452e02108da623",
+    "verifier/verify.py": "b0505a21429746655012ccee354369cdc443d66dbab098dff4a8d2416ba5a44d"
+  },
+  "kind": "harness",
+  "limits": {
+    "network": false,
+    "seed": 202603,
+    "timezone": "UTC"
+  },
+  "replays_per_harness": 3,
+  "route_evidence_required": true,
+  "schema_version": "1.0",
+  "snapshot_hashes": {
+    "public/trace.json": "7262d183da14854bff3d557ae76dbd711d2526438f9bf91269c8d6a73b8edb5b"
+  }
+}

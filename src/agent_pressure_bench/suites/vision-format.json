@@ -1,0 +1,21 @@
+{
+  "description": "Externally verified S04 synthetic fixture.",
+  "id": "vision-format",
+  "license": "Apache-2.0",
+  "schema_version": "1.0",
+  "tasks": [
+    {
+      "budget": 4,
+      "difficulty": 1,
+      "family": "synthetic_vision",
+      "id": "s04",
+      "prompt": "Read the generated dashboard and return requested values and boxes from the image in work/answer.json.\n\nThe fixture inputs are materialized in your current workspace. Use read_file and write_file; do not access repository fixture paths.\n",
+      "verifier": {
+        "expected_checks": 3,
+        "fixture_id": "S04",
+        "type": "fixture"
+      }
+    }
+  ],
+  "track": "vision_request_format"
+}

@@ -1,0 +1,6 @@
+[
+  {
+    "expected": 3,
+    "input": "a\ud83d\udc69\u200d\ud83d\udcbbb"
+  }
+]

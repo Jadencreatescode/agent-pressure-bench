@@ -1,0 +1,9 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/agent-pressure-bench/schemas/receipt.schema.json",
+  "title": "Agent Pressure Bench receipt",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "sequence", "timestamp", "event", "payload", "previous_hash", "hash"],
+  "properties": {"schema_version": {"const": "1.0"}, "sequence": {"type": "integer", "minimum": 0}, "timestamp": {"type": "string", "format": "date-time"}, "event": {"enum": ["run_started", "tool_executed", "task_finished", "run_finished"]}, "payload": {"type": "object"}, "previous_hash": {"type": "string", "pattern": "^[0-9a-f]{64}$"}, "hash": {"type": "string", "pattern": "^[0-9a-f]{64}$"}}
+}

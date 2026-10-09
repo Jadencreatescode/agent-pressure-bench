@@ -1,0 +1,15 @@
+{
+  "rule": "exactly W1 and W3 agree on every claim they share",
+  "witnesses": {
+    "W1": [
+      "A<B",
+      "B<C"
+    ],
+    "W2": [
+      "C<A"
+    ],
+    "W3": [
+      "A<B"
+    ]
+  }
+}

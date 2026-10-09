@@ -1,0 +1,10 @@
+Agent Pressure Bench
+Copyright 2026 Agent Pressure Bench contributors
+
+This product includes independently authored synthetic benchmark code, tasks, schemas, documentation, and aggregate metadata licensed under Apache License 2.0.
+
+Conceptual inspiration came from public descriptions of Agent Max 2-style pressure evaluation. No proprietary tests, hidden prompts, outputs, documentation, branding, or leaked materials are included. Agent Max 2 and DFlash names are used only for factual nominative reference. This project is not affiliated with, endorsed by, or an exact reproduction of those products.
+
+CODE_OF_CONDUCT.md is adapted from Contributor Covenant version 2.1 (CC BY 4.0).
+
+Detailed machine-readable provenance is in PROVENANCE.json.

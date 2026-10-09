@@ -1,0 +1,1 @@
+{"rules":[{"action":"allow","id":"r2a","priority":1,"when":"green"},{"action":"hold","id":"r2b","priority":2,"when":"amber"}]}

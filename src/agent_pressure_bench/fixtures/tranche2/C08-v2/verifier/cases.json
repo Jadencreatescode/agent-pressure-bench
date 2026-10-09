@@ -1,0 +1,9 @@
+[
+  {
+    "expected": true,
+    "input": {
+      "config": false,
+      "env": true
+    }
+  }
+]

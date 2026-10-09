@@ -1,0 +1,45 @@
+{
+  "description": "Deterministic large-corpus retrieval at three declared context budgets.",
+  "id": "long-context",
+  "license": "Apache-2.0",
+  "schema_version": "1.0",
+  "tasks": [
+    {
+      "budget": 4,
+      "difficulty": 1,
+      "family": "retrieval",
+      "id": "s03_60k",
+      "prompt": "Find the 14 TARGET records in the corpus; return IDs, total, and exact UTF-8 byte offsets in work/answer.json.\n\nThe fixture inputs are materialized in your current workspace. Use read_file and write_file; do not access repository fixture paths. Declared context budget: 60k.\n",
+      "verifier": {
+        "expected_checks": 3,
+        "fixture_id": "S03",
+        "type": "fixture"
+      }
+    },
+    {
+      "budget": 4,
+      "difficulty": 2,
+      "family": "retrieval",
+      "id": "s03_80k",
+      "prompt": "Find the 14 TARGET records in the corpus; return IDs, total, and exact UTF-8 byte offsets in work/answer.json.\n\nThe fixture inputs are materialized in your current workspace. Use read_file and write_file; do not access repository fixture paths. Declared context budget: 80k.\n",
+      "verifier": {
+        "expected_checks": 3,
+        "fixture_id": "S03",
+        "type": "fixture"
+      }
+    },
+    {
+      "budget": 4,
+      "difficulty": 3,
+      "family": "retrieval",
+      "id": "s03_100k",
+      "prompt": "Find the 14 TARGET records in the corpus; return IDs, total, and exact UTF-8 byte offsets in work/answer.json.\n\nThe fixture inputs are materialized in your current workspace. Use read_file and write_file; do not access repository fixture paths. Declared context budget: 100k.\n",
+      "verifier": {
+        "expected_checks": 3,
+        "fixture_id": "S03",
+        "type": "fixture"
+      }
+    }
+  ],
+  "track": "long_context"
+}

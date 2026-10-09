@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/agent-pressure-bench/schemas/suite.schema.json",
+  "title": "Agent Pressure Bench suite",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "id", "track", "tasks"],
+  "properties": {
+    "schema_version": {"const": "1.0"},
+    "id": {"type": "string", "pattern": "^[a-z0-9-]+$"},
+    "track": {"type": "string"},
+    "description": {"type": "string"}, "license": {"type": "string"},
+    "algorithm": {"type": "string"}, "note": {"type": "string"}, "public_seed": {"type": "integer"}, "sample_count": {"type": "integer"},
+    "tasks": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/task"}}
+  },
+  "$defs": {"task": {"type": "object", "additionalProperties": false, "required": ["id", "family", "difficulty", "prompt", "budget", "verifier"], "properties": {"id": {"type": "string"}, "family": {"type": "string"}, "difficulty": {"type": "integer", "minimum": 1}, "prompt": {"type": "string", "minLength": 1}, "budget": {"type": "integer", "minimum": 0}, "fixture_response": {"type": "object"}, "verifier": {"oneOf": [{"type": "object", "additionalProperties": false, "required": ["type", "path", "value"], "properties": {"type": {"const": "file_equals"}, "path": {"type": "string"}, "value": {"type": "string"}}}, {"type": "object", "additionalProperties": false, "required": ["type", "value"], "properties": {"type": {"const": "final_equals"}, "value": {} }}, {"type": "object", "additionalProperties": false, "required": ["type", "required"], "properties": {"type": {"const": "json_schema"}, "required": {"type": "array", "items": {"type": "string"}}}}, {"type": "object", "additionalProperties": false, "required": ["type", "fixture_id", "expected_checks"], "properties": {"type": {"const": "fixture"}, "fixture_id": {"type": "string", "pattern": "^[A-Za-z0-9][A-Za-z0-9_-]*$"}, "expected_checks": {"type": "integer", "minimum": 1}}}]}}}}
+}

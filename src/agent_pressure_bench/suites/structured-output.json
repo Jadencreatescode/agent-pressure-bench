@@ -1,0 +1,21 @@
+{
+  "description": "Externally verified S01 synthetic fixture.",
+  "id": "structured-output",
+  "license": "Apache-2.0",
+  "schema_version": "1.0",
+  "tasks": [
+    {
+      "budget": 4,
+      "difficulty": 1,
+      "family": "structured_json",
+      "id": "s01",
+      "prompt": "Normalize public tickets into strict discriminated-union JSON at work/answer.json.\n\nThe fixture inputs are materialized in your current workspace. Use read_file and write_file; do not access repository fixture paths.\n",
+      "verifier": {
+        "expected_checks": 3,
+        "fixture_id": "S01",
+        "type": "fixture"
+      }
+    }
+  ],
+  "track": "structured_output"
+}

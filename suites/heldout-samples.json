@@ -1,0 +1,144 @@
+{
+  "description": "Three sealed structurally held-out public samples at three variants.",
+  "id": "heldout-samples",
+  "license": "Apache-2.0",
+  "schema_version": "1.0",
+  "tasks": [
+    {
+      "budget": 1,
+      "difficulty": 1,
+      "family": "h01",
+      "fixture_response": {
+        "fixture_id": "H01-v1"
+      },
+      "id": "h01-v1",
+      "prompt": "# H01-v1\n\nUsing only `public/input.json`, resolve cyclic three-way museum-loan precedence with provenance. Write one canonical JSON object to `work/answer.json`. Do not modify public inputs or create other files.\n",
+      "verifier": {
+        "expected_checks": 5,
+        "fixture_id": "H01-v1",
+        "type": "fixture"
+      }
+    },
+    {
+      "budget": 1,
+      "difficulty": 2,
+      "family": "h01",
+      "fixture_response": {
+        "fixture_id": "H01-v2"
+      },
+      "id": "h01-v2",
+      "prompt": "# H01-v2\n\nUsing only `public/input.json`, resolve cyclic three-way museum-loan precedence with provenance. Write one canonical JSON object to `work/answer.json`. Do not modify public inputs or create other files.\n",
+      "verifier": {
+        "expected_checks": 5,
+        "fixture_id": "H01-v2",
+        "type": "fixture"
+      }
+    },
+    {
+      "budget": 1,
+      "difficulty": 3,
+      "family": "h01",
+      "fixture_response": {
+        "fixture_id": "H01-v3"
+      },
+      "id": "h01-v3",
+      "prompt": "# H01-v3\n\nUsing only `public/input.json`, resolve cyclic three-way museum-loan precedence with provenance. Write one canonical JSON object to `work/answer.json`. Do not modify public inputs or create other files.\n",
+      "verifier": {
+        "expected_checks": 5,
+        "fixture_id": "H01-v3",
+        "type": "fixture"
+      }
+    },
+    {
+      "budget": 1,
+      "difficulty": 1,
+      "family": "h02",
+      "fixture_response": {
+        "fixture_id": "H02-v1"
+      },
+      "id": "h02-v1",
+      "prompt": "# H02-v1\n\nUsing only `public/input.json`, resume a branched workflow while preserving valid branches. Write one canonical JSON object to `work/answer.json`. Do not modify public inputs or create other files.\n",
+      "verifier": {
+        "expected_checks": 5,
+        "fixture_id": "H02-v1",
+        "type": "fixture"
+      }
+    },
+    {
+      "budget": 1,
+      "difficulty": 2,
+      "family": "h02",
+      "fixture_response": {
+        "fixture_id": "H02-v2"
+      },
+      "id": "h02-v2",
+      "prompt": "# H02-v2\n\nUsing only `public/input.json`, resume a branched workflow while preserving valid branches. Write one canonical JSON object to `work/answer.json`. Do not modify public inputs or create other files.\n",
+      "verifier": {
+        "expected_checks": 5,
+        "fixture_id": "H02-v2",
+        "type": "fixture"
+      }
+    },
+    {
+      "budget": 1,
+      "difficulty": 3,
+      "family": "h02",
+      "fixture_response": {
+        "fixture_id": "H02-v3"
+      },
+      "id": "h02-v3",
+      "prompt": "# H02-v3\n\nUsing only `public/input.json`, resume a branched workflow while preserving valid branches. Write one canonical JSON object to `work/answer.json`. Do not modify public inputs or create other files.\n",
+      "verifier": {
+        "expected_checks": 5,
+        "fixture_id": "H02-v3",
+        "type": "fixture"
+      }
+    },
+    {
+      "budget": 1,
+      "difficulty": 1,
+      "family": "h03",
+      "fixture_response": {
+        "fixture_id": "H03-v1"
+      },
+      "id": "h03-v1",
+      "prompt": "# H03-v1\n\nUsing only `public/input.json`, parse and canonically serialize a nested delimiter grammar. Write one canonical JSON object to `work/answer.json`. Do not modify public inputs or create other files.\n",
+      "verifier": {
+        "expected_checks": 5,
+        "fixture_id": "H03-v1",
+        "type": "fixture"
+      }
+    },
+    {
+      "budget": 1,
+      "difficulty": 2,
+      "family": "h03",
+      "fixture_response": {
+        "fixture_id": "H03-v2"
+      },
+      "id": "h03-v2",
+      "prompt": "# H03-v2\n\nUsing only `public/input.json`, parse and canonically serialize a nested delimiter grammar. Write one canonical JSON object to `work/answer.json`. Do not modify public inputs or create other files.\n",
+      "verifier": {
+        "expected_checks": 5,
+        "fixture_id": "H03-v2",
+        "type": "fixture"
+      }
+    },
+    {
+      "budget": 1,
+      "difficulty": 3,
+      "family": "h03",
+      "fixture_response": {
+        "fixture_id": "H03-v3"
+      },
+      "id": "h03-v3",
+      "prompt": "# H03-v3\n\nUsing only `public/input.json`, parse and canonically serialize a nested delimiter grammar. Write one canonical JSON object to `work/answer.json`. Do not modify public inputs or create other files.\n",
+      "verifier": {
+        "expected_checks": 5,
+        "fixture_id": "H03-v3",
+        "type": "fixture"
+      }
+    }
+  ],
+  "track": "heldout_public_sample"
+}

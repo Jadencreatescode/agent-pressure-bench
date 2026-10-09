@@ -1,0 +1,27 @@
+{
+  "allowed_mutation_paths": [
+    "work/**"
+  ],
+  "expected_checks": 3,
+  "fixture_id": "S01",
+  "immutable_hashes": {
+    "known_good/solve.py": "d83e9652ac9f426170504495c695875c28c5126f57b68f5cbdaec7a76ba783fb",
+    "mutants/extra_field.py": "c367b8f6fd37ee2f31cdf7a7c1903c26df4a2233b87675bbfca48fbeacab7496",
+    "prompt.md": "b2bb46e4da3fcfa8ca618cec36b040b75dbf1ce3d33a16dc6d3de2ad0b54faf3",
+    "public/schema.json": "1ae2b9ff775e2834848a6e52b34b075ecc184c2f80ce288c5d019424dd347722",
+    "public/tickets.json": "911d70ccc1c7ec738382568d9df50285aad7c8a3c3cec8b98b193682efd8e1f9",
+    "verifier/oracle.json": "108532b0cedb82e9baedc0c18d38c3ae2dd63aae089ed0845f8d30741be8f97e",
+    "verifier/verify.py": "b0505a21429746655012ccee354369cdc443d66dbab098dff4a8d2416ba5a44d"
+  },
+  "kind": "structured",
+  "limits": {
+    "network": false,
+    "seed": 202603,
+    "timezone": "UTC"
+  },
+  "schema_version": "1.0",
+  "snapshot_hashes": {
+    "public/schema.json": "1ae2b9ff775e2834848a6e52b34b075ecc184c2f80ce288c5d019424dd347722",
+    "public/tickets.json": "911d70ccc1c7ec738382568d9df50285aad7c8a3c3cec8b98b193682efd8e1f9"
+  }
+}

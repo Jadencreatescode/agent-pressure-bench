@@ -1,0 +1,23 @@
+[
+  {
+    "expected": {
+      "users": [
+        {
+          "active": false,
+          "display_name": "Cy",
+          "id": 3
+        }
+      ],
+      "version": 3
+    },
+    "input": {
+      "users": [
+        {
+          "active": false,
+          "id": 3,
+          "name": "Cy"
+        }
+      ]
+    }
+  }
+]

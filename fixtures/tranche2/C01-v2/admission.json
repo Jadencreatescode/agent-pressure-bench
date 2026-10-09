@@ -1,0 +1,18 @@
+{
+  "deterministic": true,
+  "enumerated_checks": 3,
+  "expected_checks": 3,
+  "fixture_id": "C01-v2",
+  "fixture_manifest_sha256": "4b51c23a2fa0ddf6d880cffe0f78485831fba4bb31732975fb5d27e18e9b9341",
+  "immutable_hashes_match": true,
+  "known_good_sha256": "44468d3e8587b4a3249a0db7258c84442df6322af408fea6fa9eb6ea0b903289",
+  "negative_controls_passed": true,
+  "network": "disabled",
+  "passed_checks": 3,
+  "reference_runs": 2,
+  "schema_version": "1.0",
+  "semantic_receipt_sha256": "4ceeb72c22cab5be54ae717f15e61fb3b7d63d805216ca6610dfe834d9a7b264",
+  "status": "admitted",
+  "timezone": "UTC",
+  "verifier_sha256": "b0505a21429746655012ccee354369cdc443d66dbab098dff4a8d2416ba5a44d"
+}

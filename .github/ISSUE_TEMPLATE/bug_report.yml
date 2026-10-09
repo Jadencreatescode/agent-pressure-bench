@@ -1,0 +1,33 @@
+name: Bug report
+description: Report a reproducible defect in public benchmark code or documentation
+title: "[Bug]: "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: "Do not disclose vulnerabilities, credentials, private cases, or personal data here. Follow SECURITY.md instead."
+  - type: input
+    id: version
+    attributes:
+      label: APB version or commit
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Describe expected and observed behavior using synthetic, non-sensitive examples.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Minimal reproduction
+      render: shell
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Include Python and OS versions only; omit hostnames, addresses, paths, and identifiers.

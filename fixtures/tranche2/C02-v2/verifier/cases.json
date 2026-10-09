@@ -1,0 +1,14 @@
+[
+  {
+    "expected": [
+      {
+        "first": 1
+      }
+    ],
+    "input": [
+      "{\"first\":1}",
+      "oops",
+      "{\"after\":2}"
+    ]
+  }
+]

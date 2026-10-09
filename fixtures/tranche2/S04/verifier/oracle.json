@@ -1,0 +1,34 @@
+{
+  "items": [
+    {
+      "bbox": [
+        80,
+        118,
+        60,
+        126
+      ],
+      "category": "Amber",
+      "value": 42
+    },
+    {
+      "bbox": [
+        180,
+        43,
+        60,
+        201
+      ],
+      "category": "Cobalt",
+      "value": 67
+    },
+    {
+      "bbox": [
+        280,
+        151,
+        60,
+        93
+      ],
+      "category": "Jade",
+      "value": 31
+    }
+  ]
+}

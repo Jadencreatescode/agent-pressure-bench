@@ -1,0 +1,6 @@
+[
+  {
+    "expected": "/three",
+    "input": "/one/two/../../three"
+  }
+]

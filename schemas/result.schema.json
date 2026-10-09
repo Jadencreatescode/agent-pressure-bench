@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/agent-pressure-bench/schemas/result.schema.json",
+  "title": "Agent Pressure Bench persisted result",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "run_id", "suite_id", "requested_route", "effective_route", "harness", "harness_version", "limits", "seed", "attempt", "started_at", "finished_at", "suite_digest", "fixture_hashes", "verifier_hashes", "expected_checks", "enumerated_checks", "passed_checks", "tasks", "summary", "mutation_manifest", "immutable_after_hashes", "trace_hash", "output_hash", "verifier_receipt_hash", "route_config_digest", "receipt_chain_head", "metrics"],
+  "properties": {
+    "schema_version": {"const": "1.1"},
+    "run_id": {"type": "string", "pattern": "^[0-9a-f]{32}$"},
+    "suite_id": {"type": "string"},
+    "requested_route": {"type": "string"},
+    "effective_route": {"type": "string"},
+    "harness": {"const": "agent-pressure-bench"},
+    "harness_version": {"type": "string"},
+    "limits": {"type": "object"},
+    "seed": {"type": "integer"},
+    "attempt": {"type": "integer", "minimum": 1},
+    "started_at": {"type": "string", "format": "date-time"},
+    "finished_at": {"type": "string", "format": "date-time"},
+    "suite_digest": {"$ref": "#/$defs/hash"},
+    "fixture_hashes": {"$ref": "#/$defs/hashMap"},
+    "verifier_hashes": {"$ref": "#/$defs/hashMap"},
+    "expected_checks": {"type": "integer", "minimum": 0},
+    "enumerated_checks": {"type": "integer", "minimum": 0},
+    "passed_checks": {"type": "integer", "minimum": 0},
+    "tasks": {"type": "array", "items": {"$ref": "#/$defs/task"}},
+    "summary": {"type": "object", "additionalProperties": false, "required": ["total", "passed", "failed", "executed_tool_calls"], "properties": {"total": {"type": "integer"}, "passed": {"type": "integer"}, "failed": {"type": "integer"}, "executed_tool_calls": {"type": "integer"}}},
+    "mutation_manifest": {"$ref": "#/$defs/hashMap"},
+    "immutable_after_hashes": {"$ref": "#/$defs/hashMap"},
+    "trace_hash": {"$ref": "#/$defs/hash"},
+    "output_hash": {"$ref": "#/$defs/hash"},
+    "verifier_receipt_hash": {"$ref": "#/$defs/hash"},
+    "route_config_digest": {"$ref": "#/$defs/hash"},
+    "receipt_chain_head": {"$ref": "#/$defs/hash"},
+    "metrics": {"type": "object", "additionalProperties": false, "required": ["tool_calls_per_second", "tokens_per_second"], "properties": {"tool_calls_per_second": {"type": ["number", "null"]}, "tokens_per_second": {"type": ["number", "null"]}}}
+  },
+  "$defs": {
+    "hash": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "hashMap": {"type": "object", "additionalProperties": {"$ref": "#/$defs/hash"}},
+    "task": {
+      "type": "object", "additionalProperties": false,
+      "required": ["task_id", "family", "difficulty", "status", "semantic_status", "termination_status", "timeout_status", "provider_status", "budget_status", "evaluator_status", "passed", "verification", "executed_tool_calls", "budget", "output_evidence"],
+      "properties": {
+        "task_id": {"type": "string"}, "family": {"type": "string"}, "difficulty": {"type": "integer"},
+        "status": {"type": "string"}, "semantic_status": {"enum": ["passed", "failed"]},
+        "termination_status": {"enum": ["completed", "budget_exhausted", "max_turns", "provider_error"]},
+        "timeout_status": {"enum": ["not_timed_out", "timed_out"]}, "provider_status": {"enum": ["ok", "error"]},
+        "budget_status": {"enum": ["within_limit", "exhausted"]}, "evaluator_status": {"enum": ["passed", "failed", "not_evaluated"]},
+        "passed": {"type": "boolean"}, "verification": {"type": "string"}, "executed_tool_calls": {"type": "integer"},
+        "budget": {"type": "integer"}, "output_evidence": {"type": "object"}
+      }
+    }
+  }
+}

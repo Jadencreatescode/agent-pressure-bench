@@ -1,0 +1,15 @@
+{
+  "answer": {
+    "cost": 5,
+    "path": [
+      "A",
+      "B",
+      "D"
+    ]
+  },
+  "evidence_ids": [
+    "A-B",
+    "B-D",
+    "forbid-B-C"
+  ]
+}

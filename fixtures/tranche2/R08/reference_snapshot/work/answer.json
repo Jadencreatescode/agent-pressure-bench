@@ -1,0 +1,9 @@
+{
+  "answer": {
+    "Ari": "red",
+    "Bo": "blue"
+  },
+  "evidence_ids": [
+    "clue-1"
+  ]
+}

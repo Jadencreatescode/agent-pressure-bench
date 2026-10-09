@@ -1,0 +1,297 @@
+{
+  "description": "Twenty-four source-repair fixtures executed by verifier-owned contract subprocesses.",
+  "id": "executable-coding",
+  "license": "Apache-2.0",
+  "schema_version": "1.0",
+  "tasks": [
+    {
+      "budget": 8,
+      "difficulty": 1,
+      "family": "executable_coding",
+      "id": "c01_v1",
+      "prompt": "# C01-v1: path normalization\n\nRepair the implementation by writing work/solution.py. Preserve solve(value). Variant 1 targets a distinct boundary.\n\nThe fixture inputs are materialized in your current workspace. Use read_file and write_file; do not access repository fixture paths.\n",
+      "verifier": {
+        "expected_checks": 3,
+        "fixture_id": "C01-v1",
+        "type": "fixture"
+      }
+    },
+    {
+      "budget": 8,
+      "difficulty": 1,
+      "family": "executable_coding",
+      "id": "c01_v2",
+      "prompt": "# C01-v2: path normalization\n\nRepair the implementation by writing work/solution.py. Preserve solve(value). Variant 2 targets a distinct boundary.\n\nThe fixture inputs are materialized in your current workspace. Use read_file and write_file; do not access repository fixture paths.\n",
+      "verifier": {
+        "expected_checks": 3,
+        "fixture_id": "C01-v2",
+        "type": "fixture"
+      }
+    },
+    {
+      "budget": 8,
+      "difficulty": 1,
+      "family": "executable_coding",
+      "id": "c01_v3",
+      "prompt": "# C01-v3: path normalization\n\nRepair the implementation by writing work/solution.py. Preserve solve(value). Variant 3 targets a distinct boundary.\n\nThe fixture inputs are materialized in your current workspace. Use read_file and write_file; do not access repository fixture paths.\n",
+      "verifier": {
+        "expected_checks": 3,
+        "fixture_id": "C01-v3",
+        "type": "fixture"
+      }
+    },
+    {
+      "budget": 8,
+      "difficulty": 2,
+      "family": "executable_coding",
+      "id": "c02_v1",
+      "prompt": "# C02-v1: recover atomic JSONL tail\n\nRepair the implementation by writing work/solution.py. Preserve solve(value). Variant 1 targets a distinct boundary.\n\nThe fixture inputs are materialized in your current workspace. Use read_file and write_file; do not access repository fixture paths.\n",
+      "verifier": {
+        "expected_checks": 3,
+        "fixture_id": "C02-v1",
+        "type": "fixture"
+      }
+    },
+    {
+      "budget": 8,
+      "difficulty": 2,
+      "family": "executable_coding",
+      "id": "c02_v2",
+      "prompt": "# C02-v2: recover atomic JSONL tail\n\nRepair the implementation by writing work/solution.py. Preserve solve(value). Variant 2 targets a distinct boundary.\n\nThe fixture inputs are materialized in your current workspace. Use read_file and write_file; do not access repository fixture paths.\n",
+      "verifier": {
+        "expected_checks": 3,
+        "fixture_id": "C02-v2",
+        "type": "fixture"
+      }
+    },
+    {
+      "budget": 8,
+      "difficulty": 2,
+      "family": "executable_coding",
+      "id": "c02_v3",
+      "prompt": "# C02-v3: recover atomic JSONL tail\n\nRepair the implementation by writing work/solution.py. Preserve solve(value). Variant 3 targets a distinct boundary.\n\nThe fixture inputs are materialized in your current workspace. Use read_file and write_file; do not access repository fixture paths.\n",
+      "verifier": {
+        "expected_checks": 3,
+        "fixture_id": "C02-v3",
+        "type": "fixture"
+      }
+    },
+    {
+      "budget": 8,
+      "difficulty": 3,
+      "family": "executable_coding",
+      "id": "c03_v1",
+      "prompt": "# C03-v1: bounded retry backoff\n\nRepair the implementation by writing work/solution.py. Preserve solve(value). Variant 1 targets a distinct boundary.\n\nThe fixture inputs are materialized in your current workspace. Use read_file and write_file; do not access repository fixture paths.\n",
+      "verifier": {
+        "expected_checks": 3,
+        "fixture_id": "C03-v1",
+        "type": "fixture"
+      }
+    },
+    {
+      "budget": 8,
+      "difficulty": 3,
+      "family": "executable_coding",
+      "id": "c03_v2",
+      "prompt": "# C03-v2: bounded retry backoff\n\nRepair the implementation by writing work/solution.py. Preserve solve(value). Variant 2 targets a distinct boundary.\n\nThe fixture inputs are materialized in your current workspace. Use read_file and write_file; do not access repository fixture paths.\n",
+      "verifier": {
+        "expected_checks": 3,
+        "fixture_id": "C03-v2",
+        "type": "fixture"
+      }
+    },
+    {
+      "budget": 8,
+      "difficulty": 3,
+      "family": "executable_coding",
+      "id": "c03_v3",
+      "prompt": "# C03-v3: bounded retry backoff\n\nRepair the implementation by writing work/solution.py. Preserve solve(value). Variant 3 targets a distinct boundary.\n\nThe fixture inputs are materialized in your current workspace. Use read_file and write_file; do not access repository fixture paths.\n",
+      "verifier": {
+        "expected_checks": 3,
+        "fixture_id": "C03-v3",
+        "type": "fixture"
+      }
+    },
+    {
+      "budget": 8,
+      "difficulty": 4,
+      "family": "executable_coding",
+      "id": "c04_v1",
+      "prompt": "# C04-v1: Unicode grapheme-like count\n\nRepair the implementation by writing work/solution.py. Preserve solve(value). Variant 1 targets a distinct boundary.\n\nThe contract normalizes the input to Unicode NFC, then counts a deterministic grapheme-like unit for each non-combining code point except U+200D ZERO WIDTH JOINER and the non-combining code point immediately following it. Combining marks never add a unit.\n\nThe fixture inputs are materialized in your current workspace. Use read_file and write_file; do not access repository fixture paths.\n",
+      "verifier": {
+        "expected_checks": 3,
+        "fixture_id": "C04-v1",
+        "type": "fixture"
+      }
+    },
+    {
+      "budget": 8,
+      "difficulty": 4,
+      "family": "executable_coding",
+      "id": "c04_v2",
+      "prompt": "# C04-v2: Unicode grapheme-like count\n\nRepair the implementation by writing work/solution.py. Preserve solve(value). Variant 2 targets a distinct boundary.\n\nThe contract normalizes the input to Unicode NFC, then counts a deterministic grapheme-like unit for each non-combining code point except U+200D ZERO WIDTH JOINER and the non-combining code point immediately following it. Combining marks never add a unit.\n\nThe fixture inputs are materialized in your current workspace. Use read_file and write_file; do not access repository fixture paths.\n",
+      "verifier": {
+        "expected_checks": 3,
+        "fixture_id": "C04-v2",
+        "type": "fixture"
+      }
+    },
+    {
+      "budget": 8,
+      "difficulty": 4,
+      "family": "executable_coding",
+      "id": "c04_v3",
+      "prompt": "# C04-v3: Unicode grapheme-like count\n\nRepair the implementation by writing work/solution.py. Preserve solve(value). Variant 3 targets a distinct boundary.\n\nThe contract normalizes the input to Unicode NFC, then counts a deterministic grapheme-like unit for each non-combining code point except U+200D ZERO WIDTH JOINER and the non-combining code point immediately following it. Combining marks never add a unit.\n\nThe fixture inputs are materialized in your current workspace. Use read_file and write_file; do not access repository fixture paths.\n",
+      "verifier": {
+        "expected_checks": 3,
+        "fixture_id": "C04-v3",
+        "type": "fixture"
+      }
+    },
+    {
+      "budget": 8,
+      "difficulty": 5,
+      "family": "executable_coding",
+      "id": "c05_v1",
+      "prompt": "# C05-v1: stable topological sort\n\nRepair the implementation by writing work/solution.py. Preserve solve(value). Variant 1 targets a distinct boundary.\n\nThe fixture inputs are materialized in your current workspace. Use read_file and write_file; do not access repository fixture paths.\n",
+      "verifier": {
+        "expected_checks": 3,
+        "fixture_id": "C05-v1",
+        "type": "fixture"
+      }
+    },
+    {
+      "budget": 8,
+      "difficulty": 5,
+      "family": "executable_coding",
+      "id": "c05_v2",
+      "prompt": "# C05-v2: stable topological sort\n\nRepair the implementation by writing work/solution.py. Preserve solve(value). Variant 2 targets a distinct boundary.\n\nThe fixture inputs are materialized in your current workspace. Use read_file and write_file; do not access repository fixture paths.\n",
+      "verifier": {
+        "expected_checks": 3,
+        "fixture_id": "C05-v2",
+        "type": "fixture"
+      }
+    },
+    {
+      "budget": 8,
+      "difficulty": 5,
+      "family": "executable_coding",
+      "id": "c05_v3",
+      "prompt": "# C05-v3: stable topological sort\n\nRepair the implementation by writing work/solution.py. Preserve solve(value). Variant 3 targets a distinct boundary.\n\nThe fixture inputs are materialized in your current workspace. Use read_file and write_file; do not access repository fixture paths.\n",
+      "verifier": {
+        "expected_checks": 3,
+        "fixture_id": "C05-v3",
+        "type": "fixture"
+      }
+    },
+    {
+      "budget": 8,
+      "difficulty": 6,
+      "family": "executable_coding",
+      "id": "c06_v1",
+      "prompt": "# C06-v1: schema migration\n\nRepair the implementation by writing work/solution.py. Preserve solve(value). Variant 1 targets a distinct boundary.\n\nThe fixture inputs are materialized in your current workspace. Use read_file and write_file; do not access repository fixture paths.\n",
+      "verifier": {
+        "expected_checks": 3,
+        "fixture_id": "C06-v1",
+        "type": "fixture"
+      }
+    },
+    {
+      "budget": 8,
+      "difficulty": 6,
+      "family": "executable_coding",
+      "id": "c06_v2",
+      "prompt": "# C06-v2: schema migration\n\nRepair the implementation by writing work/solution.py. Preserve solve(value). Variant 2 targets a distinct boundary.\n\nThe fixture inputs are materialized in your current workspace. Use read_file and write_file; do not access repository fixture paths.\n",
+      "verifier": {
+        "expected_checks": 3,
+        "fixture_id": "C06-v2",
+        "type": "fixture"
+      }
+    },
+    {
+      "budget": 8,
+      "difficulty": 6,
+      "family": "executable_coding",
+      "id": "c06_v3",
+      "prompt": "# C06-v3: schema migration\n\nRepair the implementation by writing work/solution.py. Preserve solve(value). Variant 3 targets a distinct boundary.\n\nThe fixture inputs are materialized in your current workspace. Use read_file and write_file; do not access repository fixture paths.\n",
+      "verifier": {
+        "expected_checks": 3,
+        "fixture_id": "C06-v3",
+        "type": "fixture"
+      }
+    },
+    {
+      "budget": 8,
+      "difficulty": 7,
+      "family": "executable_coding",
+      "id": "c07_v1",
+      "prompt": "# C07-v1: CSV records\n\nRepair the implementation by writing work/solution.py. Preserve solve(value). Variant 1 targets a distinct boundary.\n\nThe fixture inputs are materialized in your current workspace. Use read_file and write_file; do not access repository fixture paths.\n",
+      "verifier": {
+        "expected_checks": 3,
+        "fixture_id": "C07-v1",
+        "type": "fixture"
+      }
+    },
+    {
+      "budget": 8,
+      "difficulty": 7,
+      "family": "executable_coding",
+      "id": "c07_v2",
+      "prompt": "# C07-v2: CSV records\n\nRepair the implementation by writing work/solution.py. Preserve solve(value). Variant 2 targets a distinct boundary.\n\nThe fixture inputs are materialized in your current workspace. Use read_file and write_file; do not access repository fixture paths.\n",
+      "verifier": {
+        "expected_checks": 3,
+        "fixture_id": "C07-v2",
+        "type": "fixture"
+      }
+    },
+    {
+      "budget": 8,
+      "difficulty": 7,
+      "family": "executable_coding",
+      "id": "c07_v3",
+      "prompt": "# C07-v3: CSV records\n\nRepair the implementation by writing work/solution.py. Preserve solve(value). Variant 3 targets a distinct boundary.\n\nThe fixture inputs are materialized in your current workspace. Use read_file and write_file; do not access repository fixture paths.\n",
+      "verifier": {
+        "expected_checks": 3,
+        "fixture_id": "C07-v3",
+        "type": "fixture"
+      }
+    },
+    {
+      "budget": 8,
+      "difficulty": 8,
+      "family": "executable_coding",
+      "id": "c08_v1",
+      "prompt": "# C08-v1: feature flag precedence\n\nRepair the implementation by writing work/solution.py. Preserve solve(value). Variant 1 targets a distinct boundary.\n\nThe fixture inputs are materialized in your current workspace. Use read_file and write_file; do not access repository fixture paths.\n",
+      "verifier": {
+        "expected_checks": 3,
+        "fixture_id": "C08-v1",
+        "type": "fixture"
+      }
+    },
+    {
+      "budget": 8,
+      "difficulty": 8,
+      "family": "executable_coding",
+      "id": "c08_v2",
+      "prompt": "# C08-v2: feature flag precedence\n\nRepair the implementation by writing work/solution.py. Preserve solve(value). Variant 2 targets a distinct boundary.\n\nThe fixture inputs are materialized in your current workspace. Use read_file and write_file; do not access repository fixture paths.\n",
+      "verifier": {
+        "expected_checks": 3,
+        "fixture_id": "C08-v2",
+        "type": "fixture"
+      }
+    },
+    {
+      "budget": 8,
+      "difficulty": 8,
+      "family": "executable_coding",
+      "id": "c08_v3",
+      "prompt": "# C08-v3: feature flag precedence\n\nRepair the implementation by writing work/solution.py. Preserve solve(value). Variant 3 targets a distinct boundary.\n\nThe fixture inputs are materialized in your current workspace. Use read_file and write_file; do not access repository fixture paths.\n",
+      "verifier": {
+        "expected_checks": 3,
+        "fixture_id": "C08-v3",
+        "type": "fixture"
+      }
+    }
+  ],
+  "track": "executable_coding"
+}

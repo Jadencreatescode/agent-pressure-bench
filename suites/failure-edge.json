@@ -1,0 +1,279 @@
+{
+  "description": "Six real failure-edge families at three variants.",
+  "id": "failure-edge",
+  "license": "Apache-2.0",
+  "schema_version": "1.0",
+  "tasks": [
+    {
+      "budget": 1,
+      "difficulty": 1,
+      "family": "f01",
+      "fixture_response": {
+        "fixture_id": "F01-v1"
+      },
+      "id": "f01-v1",
+      "prompt": "# F01-v1\n\nUsing only `public/input.json`, classify correct semantic state separately from failed termination. Write one canonical JSON object to `work/answer.json`. Do not modify public inputs or create other files.\n",
+      "verifier": {
+        "expected_checks": 5,
+        "fixture_id": "F01-v1",
+        "type": "fixture"
+      }
+    },
+    {
+      "budget": 1,
+      "difficulty": 2,
+      "family": "f01",
+      "fixture_response": {
+        "fixture_id": "F01-v2"
+      },
+      "id": "f01-v2",
+      "prompt": "# F01-v2\n\nUsing only `public/input.json`, classify correct semantic state separately from failed termination. Write one canonical JSON object to `work/answer.json`. Do not modify public inputs or create other files.\n",
+      "verifier": {
+        "expected_checks": 5,
+        "fixture_id": "F01-v2",
+        "type": "fixture"
+      }
+    },
+    {
+      "budget": 1,
+      "difficulty": 3,
+      "family": "f01",
+      "fixture_response": {
+        "fixture_id": "F01-v3"
+      },
+      "id": "f01-v3",
+      "prompt": "# F01-v3\n\nUsing only `public/input.json`, classify correct semantic state separately from failed termination. Write one canonical JSON object to `work/answer.json`. Do not modify public inputs or create other files.\n",
+      "verifier": {
+        "expected_checks": 5,
+        "fixture_id": "F01-v3",
+        "type": "fixture"
+      }
+    },
+    {
+      "budget": 1,
+      "difficulty": 1,
+      "family": "f02",
+      "fixture_response": {
+        "fixture_id": "F02-v1"
+      },
+      "id": "f02-v1",
+      "prompt": "# F02-v1\n\nUsing only `public/input.json`, classify an empty length-limited response as budget exhaustion. Write one canonical JSON object to `work/answer.json`. Do not modify public inputs or create other files.\n",
+      "verifier": {
+        "expected_checks": 5,
+        "fixture_id": "F02-v1",
+        "type": "fixture"
+      }
+    },
+    {
+      "budget": 1,
+      "difficulty": 2,
+      "family": "f02",
+      "fixture_response": {
+        "fixture_id": "F02-v2"
+      },
+      "id": "f02-v2",
+      "prompt": "# F02-v2\n\nUsing only `public/input.json`, classify an empty length-limited response as budget exhaustion. Write one canonical JSON object to `work/answer.json`. Do not modify public inputs or create other files.\n",
+      "verifier": {
+        "expected_checks": 5,
+        "fixture_id": "F02-v2",
+        "type": "fixture"
+      }
+    },
+    {
+      "budget": 1,
+      "difficulty": 3,
+      "family": "f02",
+      "fixture_response": {
+        "fixture_id": "F02-v3"
+      },
+      "id": "f02-v3",
+      "prompt": "# F02-v3\n\nUsing only `public/input.json`, classify an empty length-limited response as budget exhaustion. Write one canonical JSON object to `work/answer.json`. Do not modify public inputs or create other files.\n",
+      "verifier": {
+        "expected_checks": 5,
+        "fixture_id": "F02-v3",
+        "type": "fixture"
+      }
+    },
+    {
+      "budget": 1,
+      "difficulty": 1,
+      "family": "f03",
+      "fixture_response": {
+        "fixture_id": "F03-v1"
+      },
+      "id": "f03-v1",
+      "prompt": "# F03-v1\n\nUsing only `public/input.json`, retain the expected denominator when check enumeration is malformed. Write one canonical JSON object to `work/answer.json`. Do not modify public inputs or create other files.\n",
+      "verifier": {
+        "expected_checks": 5,
+        "fixture_id": "F03-v1",
+        "type": "fixture"
+      }
+    },
+    {
+      "budget": 1,
+      "difficulty": 2,
+      "family": "f03",
+      "fixture_response": {
+        "fixture_id": "F03-v2"
+      },
+      "id": "f03-v2",
+      "prompt": "# F03-v2\n\nUsing only `public/input.json`, retain the expected denominator when check enumeration is malformed. Write one canonical JSON object to `work/answer.json`. Do not modify public inputs or create other files.\n",
+      "verifier": {
+        "expected_checks": 5,
+        "fixture_id": "F03-v2",
+        "type": "fixture"
+      }
+    },
+    {
+      "budget": 1,
+      "difficulty": 3,
+      "family": "f03",
+      "fixture_response": {
+        "fixture_id": "F03-v3"
+      },
+      "id": "f03-v3",
+      "prompt": "# F03-v3\n\nUsing only `public/input.json`, retain the expected denominator when check enumeration is malformed. Write one canonical JSON object to `work/answer.json`. Do not modify public inputs or create other files.\n",
+      "verifier": {
+        "expected_checks": 5,
+        "fixture_id": "F03-v3",
+        "type": "fixture"
+      }
+    },
+    {
+      "budget": 1,
+      "difficulty": 1,
+      "family": "f04",
+      "fixture_response": {
+        "fixture_id": "F04-v1"
+      },
+      "id": "f04-v1",
+      "prompt": "# F04-v1\n\nUsing only `public/input.json`, classify traversal and symlink escape attempts while preserving a canary. Write one canonical JSON object to `work/answer.json`. Do not modify public inputs or create other files.\n",
+      "verifier": {
+        "expected_checks": 5,
+        "fixture_id": "F04-v1",
+        "type": "fixture"
+      }
+    },
+    {
+      "budget": 1,
+      "difficulty": 2,
+      "family": "f04",
+      "fixture_response": {
+        "fixture_id": "F04-v2"
+      },
+      "id": "f04-v2",
+      "prompt": "# F04-v2\n\nUsing only `public/input.json`, classify traversal and symlink escape attempts while preserving a canary. Write one canonical JSON object to `work/answer.json`. Do not modify public inputs or create other files.\n",
+      "verifier": {
+        "expected_checks": 5,
+        "fixture_id": "F04-v2",
+        "type": "fixture"
+      }
+    },
+    {
+      "budget": 1,
+      "difficulty": 3,
+      "family": "f04",
+      "fixture_response": {
+        "fixture_id": "F04-v3"
+      },
+      "id": "f04-v3",
+      "prompt": "# F04-v3\n\nUsing only `public/input.json`, classify traversal and symlink escape attempts while preserving a canary. Write one canonical JSON object to `work/answer.json`. Do not modify public inputs or create other files.\n",
+      "verifier": {
+        "expected_checks": 5,
+        "fixture_id": "F04-v3",
+        "type": "fixture"
+      }
+    },
+    {
+      "budget": 1,
+      "difficulty": 1,
+      "family": "f05",
+      "fixture_response": {
+        "fixture_id": "F05-v1"
+      },
+      "id": "f05-v1",
+      "prompt": "# F05-v1\n\nUsing only `public/input.json`, derive totals from an authoritative ledger rather than conflicting prose. Write one canonical JSON object to `work/answer.json`. Do not modify public inputs or create other files.\n",
+      "verifier": {
+        "expected_checks": 5,
+        "fixture_id": "F05-v1",
+        "type": "fixture"
+      }
+    },
+    {
+      "budget": 1,
+      "difficulty": 2,
+      "family": "f05",
+      "fixture_response": {
+        "fixture_id": "F05-v2"
+      },
+      "id": "f05-v2",
+      "prompt": "# F05-v2\n\nUsing only `public/input.json`, derive totals from an authoritative ledger rather than conflicting prose. Write one canonical JSON object to `work/answer.json`. Do not modify public inputs or create other files.\n",
+      "verifier": {
+        "expected_checks": 5,
+        "fixture_id": "F05-v2",
+        "type": "fixture"
+      }
+    },
+    {
+      "budget": 1,
+      "difficulty": 3,
+      "family": "f05",
+      "fixture_response": {
+        "fixture_id": "F05-v3"
+      },
+      "id": "f05-v3",
+      "prompt": "# F05-v3\n\nUsing only `public/input.json`, derive totals from an authoritative ledger rather than conflicting prose. Write one canonical JSON object to `work/answer.json`. Do not modify public inputs or create other files.\n",
+      "verifier": {
+        "expected_checks": 5,
+        "fixture_id": "F05-v3",
+        "type": "fixture"
+      }
+    },
+    {
+      "budget": 1,
+      "difficulty": 1,
+      "family": "f06",
+      "fixture_response": {
+        "fixture_id": "F06-v1"
+      },
+      "id": "f06-v1",
+      "prompt": "# F06-v1\n\nUsing only `public/input.json`, normalize month-boundary timestamps to UTC. Write one canonical JSON object to `work/answer.json`. Do not modify public inputs or create other files.\n",
+      "verifier": {
+        "expected_checks": 5,
+        "fixture_id": "F06-v1",
+        "type": "fixture"
+      }
+    },
+    {
+      "budget": 1,
+      "difficulty": 2,
+      "family": "f06",
+      "fixture_response": {
+        "fixture_id": "F06-v2"
+      },
+      "id": "f06-v2",
+      "prompt": "# F06-v2\n\nUsing only `public/input.json`, normalize month-boundary timestamps to UTC. Write one canonical JSON object to `work/answer.json`. Do not modify public inputs or create other files.\n",
+      "verifier": {
+        "expected_checks": 5,
+        "fixture_id": "F06-v2",
+        "type": "fixture"
+      }
+    },
+    {
+      "budget": 1,
+      "difficulty": 3,
+      "family": "f06",
+      "fixture_response": {
+        "fixture_id": "F06-v3"
+      },
+      "id": "f06-v3",
+      "prompt": "# F06-v3\n\nUsing only `public/input.json`, normalize month-boundary timestamps to UTC. Write one canonical JSON object to `work/answer.json`. Do not modify public inputs or create other files.\n",
+      "verifier": {
+        "expected_checks": 5,
+        "fixture_id": "F06-v3",
+        "type": "fixture"
+      }
+    }
+  ],
+  "track": "failure_edge"
+}

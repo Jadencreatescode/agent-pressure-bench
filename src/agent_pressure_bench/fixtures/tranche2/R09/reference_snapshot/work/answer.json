@@ -1,0 +1,17 @@
+{
+  "answer": {
+    "changed": [
+      "slippery",
+      "slow"
+    ],
+    "unchanged": [
+      "wet"
+    ]
+  },
+  "evidence_ids": [
+    "fact-wet",
+    "rule-1",
+    "rule-2",
+    "override"
+  ]
+}

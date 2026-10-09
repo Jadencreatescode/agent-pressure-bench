@@ -1,0 +1,10 @@
+{
+  "facts": [
+    "wet"
+  ],
+  "override": "wet->slippery disabled",
+  "rules": [
+    "wet->slippery",
+    "slippery->slow"
+  ]
+}

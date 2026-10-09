@@ -1,0 +1,14 @@
+{
+  "likelihood_false": [
+    1,
+    4
+  ],
+  "likelihood_true": [
+    3,
+    4
+  ],
+  "prior": [
+    1,
+    3
+  ]
+}

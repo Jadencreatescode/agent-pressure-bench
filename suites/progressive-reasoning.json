@@ -1,0 +1,213 @@
+{
+  "description": "Seventeen externally verified reasoning fixtures with strict answer/evidence envelopes.",
+  "id": "progressive-reasoning",
+  "license": "Apache-2.0",
+  "schema_version": "1.0",
+  "tasks": [
+    {
+      "budget": 4,
+      "difficulty": 1,
+      "family": "deductive_reasoning",
+      "id": "r01",
+      "prompt": "# R01: Direct lookup\n\nUse public/input.json. Return only work/answer.json with exactly answer and evidence_ids. Do not provide chain-of-thought.\n\nThe fixture inputs are materialized in your current workspace. Use read_file and write_file; do not access repository fixture paths.\n",
+      "verifier": {
+        "expected_checks": 3,
+        "fixture_id": "R01",
+        "type": "fixture"
+      }
+    },
+    {
+      "budget": 4,
+      "difficulty": 2,
+      "family": "deductive_reasoning",
+      "id": "r02",
+      "prompt": "# R02: One implication\n\nUse public/input.json. Return only work/answer.json with exactly answer and evidence_ids. Do not provide chain-of-thought.\n\nThe fixture inputs are materialized in your current workspace. Use read_file and write_file; do not access repository fixture paths.\n",
+      "verifier": {
+        "expected_checks": 3,
+        "fixture_id": "R02",
+        "type": "fixture"
+      }
+    },
+    {
+      "budget": 4,
+      "difficulty": 3,
+      "family": "deductive_reasoning",
+      "id": "r03",
+      "prompt": "# R03: Two-hop implication\n\nUse public/input.json. Return only work/answer.json with exactly answer and evidence_ids. Do not provide chain-of-thought.\n\nThe fixture inputs are materialized in your current workspace. Use read_file and write_file; do not access repository fixture paths.\n",
+      "verifier": {
+        "expected_checks": 3,
+        "fixture_id": "R03",
+        "type": "fixture"
+      }
+    },
+    {
+      "budget": 4,
+      "difficulty": 4,
+      "family": "deductive_reasoning",
+      "id": "r04",
+      "prompt": "# R04: Ledger addition\n\nUse public/input.json. Return only work/answer.json with exactly answer and evidence_ids. Do not provide chain-of-thought.\n\nThe fixture inputs are materialized in your current workspace. Use read_file and write_file; do not access repository fixture paths.\n",
+      "verifier": {
+        "expected_checks": 3,
+        "fixture_id": "R04",
+        "type": "fixture"
+      }
+    },
+    {
+      "budget": 4,
+      "difficulty": 5,
+      "family": "deductive_reasoning",
+      "id": "r05",
+      "prompt": "# R05: Capacity remainder\n\nUse public/input.json. Return only work/answer.json with exactly answer and evidence_ids. Do not provide chain-of-thought.\n\nThe fixture inputs are materialized in your current workspace. Use read_file and write_file; do not access repository fixture paths.\n",
+      "verifier": {
+        "expected_checks": 3,
+        "fixture_id": "R05",
+        "type": "fixture"
+      }
+    },
+    {
+      "budget": 4,
+      "difficulty": 6,
+      "family": "deductive_reasoning",
+      "id": "r06",
+      "prompt": "# R06: Largest remainder allocation\n\nUse public/input.json. Return only work/answer.json with exactly answer and evidence_ids. Do not provide chain-of-thought.\n\nThe fixture inputs are materialized in your current workspace. Use read_file and write_file; do not access repository fixture paths.\n",
+      "verifier": {
+        "expected_checks": 3,
+        "fixture_id": "R06",
+        "type": "fixture"
+      }
+    },
+    {
+      "budget": 4,
+      "difficulty": 7,
+      "family": "deductive_reasoning",
+      "id": "r07",
+      "prompt": "# R07: Temporal order\n\nUse public/input.json. Return only work/answer.json with exactly answer and evidence_ids. Do not provide chain-of-thought.\n\nThe fixture inputs are materialized in your current workspace. Use read_file and write_file; do not access repository fixture paths.\n",
+      "verifier": {
+        "expected_checks": 3,
+        "fixture_id": "R07",
+        "type": "fixture"
+      }
+    },
+    {
+      "budget": 4,
+      "difficulty": 8,
+      "family": "deductive_reasoning",
+      "id": "r08",
+      "prompt": "# R08: Negated category\n\nUse public/input.json. Return only work/answer.json with exactly answer and evidence_ids. Do not provide chain-of-thought.\n\nThe fixture inputs are materialized in your current workspace. Use read_file and write_file; do not access repository fixture paths.\n",
+      "verifier": {
+        "expected_checks": 3,
+        "fixture_id": "R08",
+        "type": "fixture"
+      }
+    },
+    {
+      "budget": 4,
+      "difficulty": 9,
+      "family": "deductive_reasoning",
+      "id": "r09",
+      "prompt": "# R09: Counterfactual\n\nUse public/input.json. Return only work/answer.json with exactly answer and evidence_ids. Do not provide chain-of-thought.\n\nThe fixture inputs are materialized in your current workspace. Use read_file and write_file; do not access repository fixture paths.\n",
+      "verifier": {
+        "expected_checks": 3,
+        "fixture_id": "R09",
+        "type": "fixture"
+      }
+    },
+    {
+      "budget": 4,
+      "difficulty": 10,
+      "family": "deductive_reasoning",
+      "id": "r10",
+      "prompt": "# R10: Forbidden-edge shortest path\n\nUse public/input.json. Return only work/answer.json with exactly answer and evidence_ids. Do not provide chain-of-thought.\n\nThe fixture inputs are materialized in your current workspace. Use read_file and write_file; do not access repository fixture paths.\n",
+      "verifier": {
+        "expected_checks": 3,
+        "fixture_id": "R10",
+        "type": "fixture"
+      }
+    },
+    {
+      "budget": 4,
+      "difficulty": 11,
+      "family": "deductive_reasoning",
+      "id": "r11",
+      "prompt": "# R11: Two-worker schedule\n\nUse public/input.json. Return only work/answer.json with exactly answer and evidence_ids. Do not provide chain-of-thought.\n\nThe fixture inputs are materialized in your current workspace. Use read_file and write_file; do not access repository fixture paths.\n",
+      "verifier": {
+        "expected_checks": 3,
+        "fixture_id": "R11",
+        "type": "fixture"
+      }
+    },
+    {
+      "budget": 4,
+      "difficulty": 12,
+      "family": "deductive_reasoning",
+      "id": "r12",
+      "prompt": "# R12: Assignment puzzle\n\nUse public/input.json. Return only work/answer.json with exactly answer and evidence_ids. Do not provide chain-of-thought.\n\nThe fixture inputs are materialized in your current workspace. Use read_file and write_file; do not access repository fixture paths.\n",
+      "verifier": {
+        "expected_checks": 3,
+        "fixture_id": "R12",
+        "type": "fixture"
+      }
+    },
+    {
+      "budget": 4,
+      "difficulty": 13,
+      "family": "deductive_reasoning",
+      "id": "r13",
+      "prompt": "# R13: Rational update\n\nUse public/input.json. Return only work/answer.json with exactly answer and evidence_ids. Do not provide chain-of-thought.\n\nThe fixture inputs are materialized in your current workspace. Use read_file and write_file; do not access repository fixture paths.\n",
+      "verifier": {
+        "expected_checks": 3,
+        "fixture_id": "R13",
+        "type": "fixture"
+      }
+    },
+    {
+      "budget": 4,
+      "difficulty": 14,
+      "family": "deductive_reasoning",
+      "id": "r14",
+      "prompt": "# R14: Nested counterfactual\n\nUse public/input.json. Return only work/answer.json with exactly answer and evidence_ids. Do not provide chain-of-thought.\n\nThe fixture inputs are materialized in your current workspace. Use read_file and write_file; do not access repository fixture paths.\n",
+      "verifier": {
+        "expected_checks": 3,
+        "fixture_id": "R14",
+        "type": "fixture"
+      }
+    },
+    {
+      "budget": 4,
+      "difficulty": 15,
+      "family": "deductive_reasoning",
+      "id": "r15",
+      "prompt": "# R15: Dependency with distractor cycle\n\nUse public/input.json. Return only work/answer.json with exactly answer and evidence_ids. Do not provide chain-of-thought.\n\nThe fixture inputs are materialized in your current workspace. Use read_file and write_file; do not access repository fixture paths.\n",
+      "verifier": {
+        "expected_checks": 3,
+        "fixture_id": "R15",
+        "type": "fixture"
+      }
+    },
+    {
+      "budget": 4,
+      "difficulty": 16,
+      "family": "deductive_reasoning",
+      "id": "r16",
+      "prompt": "# R16: Inventory plan\n\nUse public/input.json. Return only work/answer.json with exactly answer and evidence_ids. Do not provide chain-of-thought.\n\nThe fixture inputs are materialized in your current workspace. Use read_file and write_file; do not access repository fixture paths.\n",
+      "verifier": {
+        "expected_checks": 3,
+        "fixture_id": "R16",
+        "type": "fixture"
+      }
+    },
+    {
+      "budget": 4,
+      "difficulty": 17,
+      "family": "deductive_reasoning",
+      "id": "r17",
+      "prompt": "# R17: Witness reliability\n\nUse public/input.json. Return only work/answer.json with exactly answer and evidence_ids. Do not provide chain-of-thought.\n\nThe fixture inputs are materialized in your current workspace. Use read_file and write_file; do not access repository fixture paths.\n",
+      "verifier": {
+        "expected_checks": 3,
+        "fixture_id": "R17",
+        "type": "fixture"
+      }
+    }
+  ],
+  "track": "reasoning"
+}

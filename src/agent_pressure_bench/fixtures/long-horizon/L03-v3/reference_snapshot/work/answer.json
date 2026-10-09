@@ -1,0 +1,1 @@
+{"alternate_strategy":"event_replay","checkpoint":"before-retry","event_ids":[1,2,3,4,5,6,7,8],"failed_strategy":"strategy_primary","final_state":"closed","reason_code":"FORCED_PRIMARY_FAILURE"}

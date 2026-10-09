@@ -1,0 +1,12 @@
+[
+  {
+    "expected": {
+      "attempts": 1,
+      "delays": [],
+      "result": "ok"
+    },
+    "input": [
+      "ok"
+    ]
+  }
+]

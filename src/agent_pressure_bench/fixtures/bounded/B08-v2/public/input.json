@@ -1,0 +1,1 @@
+{"fixture":"B08","operations":[{"key":"c","op":"set","value":6},{"key":"b","op":"delete"},{"key":"a","op":"add","value":3}],"state":{"a":2,"b":2},"variant":2}

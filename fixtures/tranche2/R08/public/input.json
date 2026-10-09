@@ -1,0 +1,13 @@
+{
+  "categories": [
+    "red",
+    "blue"
+  ],
+  "clues": [
+    "Ari is not blue"
+  ],
+  "entities": [
+    "Ari",
+    "Bo"
+  ]
+}

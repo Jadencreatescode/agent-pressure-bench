@@ -1,0 +1,21 @@
+{
+  "answer": {
+    "cost": 19,
+    "ending_inventory": [
+      0,
+      1,
+      0
+    ],
+    "production": [
+      2,
+      5,
+      2
+    ]
+  },
+  "evidence_ids": [
+    "p1",
+    "p2",
+    "p3",
+    "carry"
+  ]
+}

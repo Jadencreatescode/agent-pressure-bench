@@ -1,0 +1,1 @@
+{"input_hash":"8a70f475c5d196f0f20bc382ec5cee2443a3328eda41db37ecb7d8a963b995ae","receipts":[{"key":"c","op":"set","status":"applied"},{"key":"b","op":"delete","status":"applied"},{"key":"a","op":"add","status":"applied"}],"state":{"a":4,"c":5}}

@@ -1,0 +1,1 @@
+{"fixture":"B01","precedence":["confirmed","planned"],"rows":[{"id":"S3A","qty":7,"source":"planned"},{"id":"S3A","qty":10,"source":"confirmed"},{"id":"S3B","qty":6,"source":"planned"}],"variant":3}

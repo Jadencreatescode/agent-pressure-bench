@@ -1,0 +1,369 @@
+{
+  "description": "Eight real synthetic fixture families at three deterministic variants.",
+  "id": "bounded",
+  "license": "Apache-2.0",
+  "schema_version": "1.0",
+  "tasks": [
+    {
+      "budget": 1,
+      "difficulty": 1,
+      "family": "b01",
+      "fixture_response": {
+        "fixture_id": "B01-v1"
+      },
+      "id": "b01-v1",
+      "prompt": "# B01-v1\n\nUsing only `public/input.json`, reconcile two shipment tables using source precedence. Write one canonical JSON object to `work/answer.json`. Do not modify public inputs or create other files.\n",
+      "verifier": {
+        "expected_checks": 5,
+        "fixture_id": "B01-v1",
+        "type": "fixture"
+      }
+    },
+    {
+      "budget": 1,
+      "difficulty": 2,
+      "family": "b01",
+      "fixture_response": {
+        "fixture_id": "B01-v2"
+      },
+      "id": "b01-v2",
+      "prompt": "# B01-v2\n\nUsing only `public/input.json`, reconcile two shipment tables using source precedence. Write one canonical JSON object to `work/answer.json`. Do not modify public inputs or create other files.\n",
+      "verifier": {
+        "expected_checks": 5,
+        "fixture_id": "B01-v2",
+        "type": "fixture"
+      }
+    },
+    {
+      "budget": 1,
+      "difficulty": 3,
+      "family": "b01",
+      "fixture_response": {
+        "fixture_id": "B01-v3"
+      },
+      "id": "b01-v3",
+      "prompt": "# B01-v3\n\nUsing only `public/input.json`, reconcile two shipment tables using source precedence. Write one canonical JSON object to `work/answer.json`. Do not modify public inputs or create other files.\n",
+      "verifier": {
+        "expected_checks": 5,
+        "fixture_id": "B01-v3",
+        "type": "fixture"
+      }
+    },
+    {
+      "budget": 1,
+      "difficulty": 1,
+      "family": "b02",
+      "fixture_response": {
+        "fixture_id": "B02-v1"
+      },
+      "id": "b02-v1",
+      "prompt": "# B02-v1\n\nUsing only `public/input.json`, evaluate inclusive date windows and invalid ranges. Write one canonical JSON object to `work/answer.json`. Do not modify public inputs or create other files.\n",
+      "verifier": {
+        "expected_checks": 5,
+        "fixture_id": "B02-v1",
+        "type": "fixture"
+      }
+    },
+    {
+      "budget": 1,
+      "difficulty": 2,
+      "family": "b02",
+      "fixture_response": {
+        "fixture_id": "B02-v2"
+      },
+      "id": "b02-v2",
+      "prompt": "# B02-v2\n\nUsing only `public/input.json`, evaluate inclusive date windows and invalid ranges. Write one canonical JSON object to `work/answer.json`. Do not modify public inputs or create other files.\n",
+      "verifier": {
+        "expected_checks": 5,
+        "fixture_id": "B02-v2",
+        "type": "fixture"
+      }
+    },
+    {
+      "budget": 1,
+      "difficulty": 3,
+      "family": "b02",
+      "fixture_response": {
+        "fixture_id": "B02-v3"
+      },
+      "id": "b02-v3",
+      "prompt": "# B02-v3\n\nUsing only `public/input.json`, evaluate inclusive date windows and invalid ranges. Write one canonical JSON object to `work/answer.json`. Do not modify public inputs or create other files.\n",
+      "verifier": {
+        "expected_checks": 5,
+        "fixture_id": "B02-v3",
+        "type": "fixture"
+      }
+    },
+    {
+      "budget": 1,
+      "difficulty": 1,
+      "family": "b03",
+      "fixture_response": {
+        "fixture_id": "B03-v1"
+      },
+      "id": "b03-v1",
+      "prompt": "# B03-v1\n\nUsing only `public/input.json`, normalize policy rules by priority and identifier. Write one canonical JSON object to `work/answer.json`. Do not modify public inputs or create other files.\n",
+      "verifier": {
+        "expected_checks": 5,
+        "fixture_id": "B03-v1",
+        "type": "fixture"
+      }
+    },
+    {
+      "budget": 1,
+      "difficulty": 2,
+      "family": "b03",
+      "fixture_response": {
+        "fixture_id": "B03-v2"
+      },
+      "id": "b03-v2",
+      "prompt": "# B03-v2\n\nUsing only `public/input.json`, normalize policy rules by priority and identifier. Write one canonical JSON object to `work/answer.json`. Do not modify public inputs or create other files.\n",
+      "verifier": {
+        "expected_checks": 5,
+        "fixture_id": "B03-v2",
+        "type": "fixture"
+      }
+    },
+    {
+      "budget": 1,
+      "difficulty": 3,
+      "family": "b03",
+      "fixture_response": {
+        "fixture_id": "B03-v3"
+      },
+      "id": "b03-v3",
+      "prompt": "# B03-v3\n\nUsing only `public/input.json`, normalize policy rules by priority and identifier. Write one canonical JSON object to `work/answer.json`. Do not modify public inputs or create other files.\n",
+      "verifier": {
+        "expected_checks": 5,
+        "fixture_id": "B03-v3",
+        "type": "fixture"
+      }
+    },
+    {
+      "budget": 1,
+      "difficulty": 1,
+      "family": "b04",
+      "fixture_response": {
+        "fixture_id": "B04-v1"
+      },
+      "id": "b04-v1",
+      "prompt": "# B04-v1\n\nUsing only `public/input.json`, filter and order inventory records. Write one canonical JSON object to `work/answer.json`. Do not modify public inputs or create other files.\n",
+      "verifier": {
+        "expected_checks": 5,
+        "fixture_id": "B04-v1",
+        "type": "fixture"
+      }
+    },
+    {
+      "budget": 1,
+      "difficulty": 2,
+      "family": "b04",
+      "fixture_response": {
+        "fixture_id": "B04-v2"
+      },
+      "id": "b04-v2",
+      "prompt": "# B04-v2\n\nUsing only `public/input.json`, filter and order inventory records. Write one canonical JSON object to `work/answer.json`. Do not modify public inputs or create other files.\n",
+      "verifier": {
+        "expected_checks": 5,
+        "fixture_id": "B04-v2",
+        "type": "fixture"
+      }
+    },
+    {
+      "budget": 1,
+      "difficulty": 3,
+      "family": "b04",
+      "fixture_response": {
+        "fixture_id": "B04-v3"
+      },
+      "id": "b04-v3",
+      "prompt": "# B04-v3\n\nUsing only `public/input.json`, filter and order inventory records. Write one canonical JSON object to `work/answer.json`. Do not modify public inputs or create other files.\n",
+      "verifier": {
+        "expected_checks": 5,
+        "fixture_id": "B04-v3",
+        "type": "fixture"
+      }
+    },
+    {
+      "budget": 1,
+      "difficulty": 1,
+      "family": "b05",
+      "fixture_response": {
+        "fixture_id": "B05-v1"
+      },
+      "id": "b05-v1",
+      "prompt": "# B05-v1\n\nUsing only `public/input.json`, choose a minimum eligible coupon set with a lexical tie break. Write one canonical JSON object to `work/answer.json`. Do not modify public inputs or create other files.\n",
+      "verifier": {
+        "expected_checks": 5,
+        "fixture_id": "B05-v1",
+        "type": "fixture"
+      }
+    },
+    {
+      "budget": 1,
+      "difficulty": 2,
+      "family": "b05",
+      "fixture_response": {
+        "fixture_id": "B05-v2"
+      },
+      "id": "b05-v2",
+      "prompt": "# B05-v2\n\nUsing only `public/input.json`, choose a minimum eligible coupon set with a lexical tie break. Write one canonical JSON object to `work/answer.json`. Do not modify public inputs or create other files.\n",
+      "verifier": {
+        "expected_checks": 5,
+        "fixture_id": "B05-v2",
+        "type": "fixture"
+      }
+    },
+    {
+      "budget": 1,
+      "difficulty": 3,
+      "family": "b05",
+      "fixture_response": {
+        "fixture_id": "B05-v3"
+      },
+      "id": "b05-v3",
+      "prompt": "# B05-v3\n\nUsing only `public/input.json`, choose a minimum eligible coupon set with a lexical tie break. Write one canonical JSON object to `work/answer.json`. Do not modify public inputs or create other files.\n",
+      "verifier": {
+        "expected_checks": 5,
+        "fixture_id": "B05-v3",
+        "type": "fixture"
+      }
+    },
+    {
+      "budget": 1,
+      "difficulty": 1,
+      "family": "b06",
+      "fixture_response": {
+        "fixture_id": "B06-v1"
+      },
+      "id": "b06-v1",
+      "prompt": "# B06-v1\n\nUsing only `public/input.json`, rebuild a sorted Markdown document index. Write one canonical JSON object to `work/answer.json`. Do not modify public inputs or create other files.\n",
+      "verifier": {
+        "expected_checks": 5,
+        "fixture_id": "B06-v1",
+        "type": "fixture"
+      }
+    },
+    {
+      "budget": 1,
+      "difficulty": 2,
+      "family": "b06",
+      "fixture_response": {
+        "fixture_id": "B06-v2"
+      },
+      "id": "b06-v2",
+      "prompt": "# B06-v2\n\nUsing only `public/input.json`, rebuild a sorted Markdown document index. Write one canonical JSON object to `work/answer.json`. Do not modify public inputs or create other files.\n",
+      "verifier": {
+        "expected_checks": 5,
+        "fixture_id": "B06-v2",
+        "type": "fixture"
+      }
+    },
+    {
+      "budget": 1,
+      "difficulty": 3,
+      "family": "b06",
+      "fixture_response": {
+        "fixture_id": "B06-v3"
+      },
+      "id": "b06-v3",
+      "prompt": "# B06-v3\n\nUsing only `public/input.json`, rebuild a sorted Markdown document index. Write one canonical JSON object to `work/answer.json`. Do not modify public inputs or create other files.\n",
+      "verifier": {
+        "expected_checks": 5,
+        "fixture_id": "B06-v3",
+        "type": "fixture"
+      }
+    },
+    {
+      "budget": 1,
+      "difficulty": 1,
+      "family": "b07",
+      "fixture_response": {
+        "fixture_id": "B07-v1"
+      },
+      "id": "b07-v1",
+      "prompt": "# B07-v1\n\nUsing only `public/input.json`, compute sensor statistics with missing values excluded. Write one canonical JSON object to `work/answer.json`. Do not modify public inputs or create other files.\n",
+      "verifier": {
+        "expected_checks": 5,
+        "fixture_id": "B07-v1",
+        "type": "fixture"
+      }
+    },
+    {
+      "budget": 1,
+      "difficulty": 2,
+      "family": "b07",
+      "fixture_response": {
+        "fixture_id": "B07-v2"
+      },
+      "id": "b07-v2",
+      "prompt": "# B07-v2\n\nUsing only `public/input.json`, compute sensor statistics with missing values excluded. Write one canonical JSON object to `work/answer.json`. Do not modify public inputs or create other files.\n",
+      "verifier": {
+        "expected_checks": 5,
+        "fixture_id": "B07-v2",
+        "type": "fixture"
+      }
+    },
+    {
+      "budget": 1,
+      "difficulty": 3,
+      "family": "b07",
+      "fixture_response": {
+        "fixture_id": "B07-v3"
+      },
+      "id": "b07-v3",
+      "prompt": "# B07-v3\n\nUsing only `public/input.json`, compute sensor statistics with missing values excluded. Write one canonical JSON object to `work/answer.json`. Do not modify public inputs or create other files.\n",
+      "verifier": {
+        "expected_checks": 5,
+        "fixture_id": "B07-v3",
+        "type": "fixture"
+      }
+    },
+    {
+      "budget": 1,
+      "difficulty": 1,
+      "family": "b08",
+      "fixture_response": {
+        "fixture_id": "B08-v1"
+      },
+      "id": "b08-v1",
+      "prompt": "# B08-v1\n\nUsing only `public/input.json`, apply an atomic key-value patch ledger. Write one canonical JSON object to `work/answer.json`. Do not modify public inputs or create other files.\n",
+      "verifier": {
+        "expected_checks": 5,
+        "fixture_id": "B08-v1",
+        "type": "fixture"
+      }
+    },
+    {
+      "budget": 1,
+      "difficulty": 2,
+      "family": "b08",
+      "fixture_response": {
+        "fixture_id": "B08-v2"
+      },
+      "id": "b08-v2",
+      "prompt": "# B08-v2\n\nUsing only `public/input.json`, apply an atomic key-value patch ledger. Write one canonical JSON object to `work/answer.json`. Do not modify public inputs or create other files.\n",
+      "verifier": {
+        "expected_checks": 5,
+        "fixture_id": "B08-v2",
+        "type": "fixture"
+      }
+    },
+    {
+      "budget": 1,
+      "difficulty": 3,
+      "family": "b08",
+      "fixture_response": {
+        "fixture_id": "B08-v3"
+      },
+      "id": "b08-v3",
+      "prompt": "# B08-v3\n\nUsing only `public/input.json`, apply an atomic key-value patch ledger. Write one canonical JSON object to `work/answer.json`. Do not modify public inputs or create other files.\n",
+      "verifier": {
+        "expected_checks": 5,
+        "fixture_id": "B08-v3",
+        "type": "fixture"
+      }
+    }
+  ],
+  "track": "bounded"
+}

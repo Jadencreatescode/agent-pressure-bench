@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Agent Pressure Bench: a model-neutral synthetic benchmark for tool-using agents.">
+  <title>Agent Pressure Bench</title>
+  <style>
+    :root{color-scheme:light dark;font-family:system-ui,sans-serif;line-height:1.55}body{max-width:54rem;margin:0 auto;padding:3rem 1.25rem}h1{font-size:clamp(2rem,6vw,4rem);line-height:1.05}a{color:#3977e8}code{background:#8882;padding:.15rem .35rem;border-radius:.25rem}.card{border:1px solid #8886;border-radius:.75rem;padding:1rem 1.25rem;margin:1rem 0}nav a{margin-right:1rem}
+  </style>
+</head>
+<body>
+  <nav><a href="README.md">README</a><a href="METHODOLOGY.md">Methodology</a><a href="SECURITY.md">Security</a></nav>
+  <main>
+    <h1>Agent Pressure Bench</h1>
+    <p>A model-neutral, synthetic benchmark for tool-using agents under bounded budgets, long-horizon pressure, failure edges, and structured-output constraints.</p>
+    <div class="card"><strong>Public by design.</strong> The project ships synthetic public fixtures and aggregate reference metadata—not hidden cases, private corpora, raw transcripts, credentials, or model weights.</div>
+    <h2>Quick start</h2><pre><code>uv sync --extra dev --python 3.11
+uv run pytest -q
+uv run apb list</code></pre>
+    <h2>Release integrity</h2>
+    <p>See the <a href="RELEASE_CHECKLIST.md">release checklist</a>, <a href="PROVENANCE.json">provenance manifest</a>, <a href="REPORTING_POLICY.md">reporting policy</a>, and <a href="HIDDEN_SUITE_ARCHITECTURE.md">hidden-suite architecture</a>.</p>
+  </main>
+</body>
+</html>

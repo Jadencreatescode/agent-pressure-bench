@@ -1,0 +1,28 @@
+name: Suite proposal
+description: Propose an independently authored synthetic public case
+labels: [enhancement]
+body:
+  - type: textarea
+    id: goal
+    attributes:
+      label: Evaluation goal
+    validations:
+      required: true
+  - type: textarea
+    id: provenance
+    attributes:
+      label: Provenance and redistribution basis
+      description: State origin, authorship, license, modifications, and why redistribution is permitted.
+    validations:
+      required: true
+  - type: checkboxes
+    id: attestations
+    attributes:
+      label: Attestations
+      options:
+        - label: The proposal is synthetic and independently authored.
+          required: true
+        - label: It contains no hidden/private evaluation material, credentials, personal data, transcripts, or restricted source text.
+          required: true
+        - label: I can submit it under Apache-2.0 and will update PROVENANCE.json.
+          required: true

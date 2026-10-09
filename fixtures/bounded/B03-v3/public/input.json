@@ -1,0 +1,1 @@
+{"fixture":"B03","rules":[{"action":"hold","id":"r3b","priority":2,"when":"amber"},{"action":"allow","id":"r3a","priority":1,"when":"green"}],"variant":3}

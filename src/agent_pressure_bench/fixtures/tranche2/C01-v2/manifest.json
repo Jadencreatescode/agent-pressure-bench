@@ -1,0 +1,33 @@
+{
+  "allowed_mutation_paths": [
+    "work/**"
+  ],
+  "contract": "path normalization",
+  "expected_checks": 3,
+  "fault_sites": [
+    "boundary",
+    "invalid_or_edge"
+  ],
+  "fixture_id": "C01-v2",
+  "immutable_hashes": {
+    "known_good/solution.py": "6f84229e8b0ba71b1f0ef847bd05f053cb00d47ddcfc0b2ff7940a47b55ba368",
+    "known_good/solve.py": "44468d3e8587b4a3249a0db7258c84442df6322af408fea6fa9eb6ea0b903289",
+    "mutants/variant_2_bug.py": "c55afd785f74c027de2a6fbb662bd67103706005a9117cf3a8091e3aa31cbfb0",
+    "prompt.md": "7bd30d630e85a1381c6a0463cdde836f077bdba94f37935bfadee71cc33ab678",
+    "public/src/task.py": "c55afd785f74c027de2a6fbb662bd67103706005a9117cf3a8091e3aa31cbfb0",
+    "verifier/cases.json": "d684a2fc4f45e162c1d99fb16e82912842ad49766b5dee6714ac1a196783bb1d",
+    "verifier/contract.py": "7801e4a98d4784daf9055d11542b51efb9af55a8165b2113cb01a25ebec1b20a",
+    "verifier/verify.py": "b0505a21429746655012ccee354369cdc443d66dbab098dff4a8d2416ba5a44d"
+  },
+  "kind": "coding",
+  "limits": {
+    "network": false,
+    "seed": 202603,
+    "timezone": "UTC"
+  },
+  "schema_version": "1.0",
+  "snapshot_hashes": {
+    "public/src/task.py": "c55afd785f74c027de2a6fbb662bd67103706005a9117cf3a8091e3aa31cbfb0"
+  },
+  "variant": 2
+}

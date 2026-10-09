@@ -1,0 +1,144 @@
+{
+  "description": "Three resumable synthetic fixture families at three fault variants.",
+  "id": "long-horizon",
+  "license": "Apache-2.0",
+  "schema_version": "1.0",
+  "tasks": [
+    {
+      "budget": 1,
+      "difficulty": 1,
+      "family": "l01",
+      "fixture_response": {
+        "fixture_id": "L01-v1"
+      },
+      "id": "l01-v1",
+      "prompt": "# L01-v1\n\nUsing only `public/input.json`, produce hash-bound discover, normalize, and index stage receipts. Write one canonical JSON object to `work/answer.json`. Do not modify public inputs or create other files.\n",
+      "verifier": {
+        "expected_checks": 5,
+        "fixture_id": "L01-v1",
+        "type": "fixture"
+      }
+    },
+    {
+      "budget": 1,
+      "difficulty": 2,
+      "family": "l01",
+      "fixture_response": {
+        "fixture_id": "L01-v2"
+      },
+      "id": "l01-v2",
+      "prompt": "# L01-v2\n\nUsing only `public/input.json`, produce hash-bound discover, normalize, and index stage receipts. Write one canonical JSON object to `work/answer.json`. Do not modify public inputs or create other files.\n",
+      "verifier": {
+        "expected_checks": 5,
+        "fixture_id": "L01-v2",
+        "type": "fixture"
+      }
+    },
+    {
+      "budget": 1,
+      "difficulty": 3,
+      "family": "l01",
+      "fixture_response": {
+        "fixture_id": "L01-v3"
+      },
+      "id": "l01-v3",
+      "prompt": "# L01-v3\n\nUsing only `public/input.json`, produce hash-bound discover, normalize, and index stage receipts. Write one canonical JSON object to `work/answer.json`. Do not modify public inputs or create other files.\n",
+      "verifier": {
+        "expected_checks": 5,
+        "fixture_id": "L01-v3",
+        "type": "fixture"
+      }
+    },
+    {
+      "budget": 1,
+      "difficulty": 1,
+      "family": "l02",
+      "fixture_response": {
+        "fixture_id": "L02-v1"
+      },
+      "id": "l02-v1",
+      "prompt": "# L02-v1\n\nUsing only `public/input.json`, migrate a catalog while preserving a chained audit ledger. Write one canonical JSON object to `work/answer.json`. Do not modify public inputs or create other files.\n",
+      "verifier": {
+        "expected_checks": 5,
+        "fixture_id": "L02-v1",
+        "type": "fixture"
+      }
+    },
+    {
+      "budget": 1,
+      "difficulty": 2,
+      "family": "l02",
+      "fixture_response": {
+        "fixture_id": "L02-v2"
+      },
+      "id": "l02-v2",
+      "prompt": "# L02-v2\n\nUsing only `public/input.json`, migrate a catalog while preserving a chained audit ledger. Write one canonical JSON object to `work/answer.json`. Do not modify public inputs or create other files.\n",
+      "verifier": {
+        "expected_checks": 5,
+        "fixture_id": "L02-v2",
+        "type": "fixture"
+      }
+    },
+    {
+      "budget": 1,
+      "difficulty": 3,
+      "family": "l02",
+      "fixture_response": {
+        "fixture_id": "L02-v3"
+      },
+      "id": "l02-v3",
+      "prompt": "# L02-v3\n\nUsing only `public/input.json`, migrate a catalog while preserving a chained audit ledger. Write one canonical JSON object to `work/answer.json`. Do not modify public inputs or create other files.\n",
+      "verifier": {
+        "expected_checks": 5,
+        "fixture_id": "L02-v3",
+        "type": "fixture"
+      }
+    },
+    {
+      "budget": 1,
+      "difficulty": 1,
+      "family": "l03",
+      "fixture_response": {
+        "fixture_id": "L03-v1"
+      },
+      "id": "l03-v1",
+      "prompt": "# L03-v1\n\nUsing only `public/input.json`, recover an issue workflow after a forced first-strategy failure. Write one canonical JSON object to `work/answer.json`. Do not modify public inputs or create other files.\n",
+      "verifier": {
+        "expected_checks": 5,
+        "fixture_id": "L03-v1",
+        "type": "fixture"
+      }
+    },
+    {
+      "budget": 1,
+      "difficulty": 2,
+      "family": "l03",
+      "fixture_response": {
+        "fixture_id": "L03-v2"
+      },
+      "id": "l03-v2",
+      "prompt": "# L03-v2\n\nUsing only `public/input.json`, recover an issue workflow after a forced first-strategy failure. Write one canonical JSON object to `work/answer.json`. Do not modify public inputs or create other files.\n",
+      "verifier": {
+        "expected_checks": 5,
+        "fixture_id": "L03-v2",
+        "type": "fixture"
+      }
+    },
+    {
+      "budget": 1,
+      "difficulty": 3,
+      "family": "l03",
+      "fixture_response": {
+        "fixture_id": "L03-v3"
+      },
+      "id": "l03-v3",
+      "prompt": "# L03-v3\n\nUsing only `public/input.json`, recover an issue workflow after a forced first-strategy failure. Write one canonical JSON object to `work/answer.json`. Do not modify public inputs or create other files.\n",
+      "verifier": {
+        "expected_checks": 5,
+        "fixture_id": "L03-v3",
+        "type": "fixture"
+      }
+    }
+  ],
+  "track": "long_horizon"
+}

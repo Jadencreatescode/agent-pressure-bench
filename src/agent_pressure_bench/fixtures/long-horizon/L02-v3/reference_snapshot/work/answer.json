@@ -1,0 +1,1 @@
+{"idempotent":true,"ledger":[{"from":3,"hash":"ccecc225b4e4465ab3646aa98ca62df0501d35947f589a67af413eb2c1739da7","previous_hash":"77d90e268134f0ddc1de73f79e9159138ade2f2e74faa22a287d21a35ed7c23d","to":4}],"records":[{"key":"p3","name":"Widget","price_cents":103}],"schema_version":4}
