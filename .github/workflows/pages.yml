@@ -38,7 +38,7 @@ jobs:
           persist-credentials: false
       # Tags are used below until maintainers record reviewed immutable SHAs.
       - name: Configure Pages
-        uses: actions/configure-pages@v5
+        uses: actions/configure-pages@v6
       - name: Prepare static site
         run: |
           mkdir _site
