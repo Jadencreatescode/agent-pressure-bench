@@ -36,6 +36,9 @@ jobs:
           PYTHONDONTWRITEBYTECODE: "1"
         run: uv run --locked --extra dev python -m pytest -q
       - name: Validate release metadata
-        run: uv run --locked python scripts/validate_release_materials.py
+        run: |
+          find src tests scripts tools fixtures -type d -name __pycache__ -prune -exec rm -rf {} +
+          rm -rf .pytest_cache build dist artifacts *.egg-info src/*.egg-info
+          uv run --locked python scripts/validate_release_materials.py
       - name: Build SBOM
         run: uv run --locked python scripts/generate_sbom.py --output artifacts/sbom.cdx.json
